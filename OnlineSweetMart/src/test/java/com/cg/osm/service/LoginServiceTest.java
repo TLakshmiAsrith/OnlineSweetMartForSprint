@@ -3,6 +3,9 @@ package com.cg.osm.service;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
@@ -11,7 +14,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 import com.cg.osm.entity.User;
 import com.cg.osm.repository.LoginRepository;
-//import com.cg.osm.service.LoginServiceImpl;
 
 @SpringBootTest
 public class LoginServiceTest {
@@ -20,6 +22,7 @@ public class LoginServiceTest {
 	LoginServiceImpl loginServiceImpl;
 	@Mock
 	LoginRepository loginRepo;
+
 	@Test
 	public void addUserMockTest() {
 		User user = new User();
@@ -54,6 +57,26 @@ public class LoginServiceTest {
 		Mockito.when(loginRepo.existsById(user.getUserId())).thenReturn(true);
 		Mockito.when(loginRepo.getPassword(user.getUserId())).thenReturn(user.getPassword());
 		assertThat(loginServiceImpl.validateUser(user.getUserId())).isEqualTo(user);
+
+	}
+
+	@Test
+	public void showAllUsersMockTest() {
+		User user1 = new User();
+		user1.setUserId("Sandeep");
+		user1.setPassword("password");
+		user1.setRole("User Plus");
+
+		User user2 = new User();
+		user2.setUserId("Asrith");
+		user2.setPassword("Password");
+		user2.setRole("UsersPlus");
+
+		List<User> userlist = new ArrayList<>();
+		userlist.add(user1);
+		userlist.add(user2);
+		Mockito.when(loginRepo.findAll()).thenReturn(userlist);
+		assertThat(loginServiceImpl.showAllUsers()).isEqualTo(userlist);
 
 	}
 
