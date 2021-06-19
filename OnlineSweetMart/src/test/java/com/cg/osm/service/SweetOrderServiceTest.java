@@ -28,7 +28,7 @@ import com.cg.osm.repository.CustomerRepository;
 import com.cg.osm.repository.SweetOrderJpaRepository;
 
 @ExtendWith(MockitoExtension.class)
-public class SweetOrderServiceTest {
+ class SweetOrderServiceTest {
 
 	@InjectMocks
 	private SweetOrderServiceImpl service;
@@ -40,7 +40,7 @@ public class SweetOrderServiceTest {
 	private CustomerRepository customerrepository;
 
 	@Test
-	public void test_ShowAllSweetOrder() throws Exception {
+	 void test_ShowAllSweetOrder() throws Exception {
 		Product p = new Product(1, "sweet1", 200.0, LocalDate.now(), new Category(1, "Ksweet"));
 		Product p2 = new Product(2, "sweet2", 200.0, LocalDate.now(), new Category(1, "Ksweet"));
 		List<Product> plist = new ArrayList<Product>();
@@ -53,7 +53,7 @@ public class SweetOrderServiceTest {
 	}
 
 	@Test
-	public void test_addSweetorder() throws Exception {
+	 void test_addSweetorder() throws Exception {
 		Product p = new Product(1, "sweet1", 200.0, LocalDate.now(), new Category(1, "KSwwet"));
 		List<Product> plist = new ArrayList<Product>();
 		plist.add(p);
@@ -64,14 +64,14 @@ public class SweetOrderServiceTest {
 	}
 
 	@Test
-	public void test_findSweetorderByOrderId() throws Exception {
+	 void test_findSweetorderByOrderId() throws Exception {
 		BDDMockito.given(repository.findById(10)).willReturn(Optional.of(new SweetOrder(10, null)));
 		SweetOrder result = service.findOrderById(10).get();
 		assertEquals(10, result.getOrderId());
 	}
 
 	@Test
-	public void test_deleteOrder() throws Exception {
+	 void test_deleteOrder() throws Exception {
 		Product p = new Product(1, "sweet1", 200.0, LocalDate.now(), new Category(1, "Ksweet"));
 		Product p2 = new Product(2, "sweet2", 200.0, LocalDate.now(), new Category(1, "Ksweet"));
 		List<Product> plist = new ArrayList<Product>();
@@ -84,7 +84,7 @@ public class SweetOrderServiceTest {
 	}
 
 	@Test
-	public void test_findSweetOrderByCustomerId() throws Exception {
+	 void test_findSweetOrderByCustomerId() throws Exception {
 		Customer cust1 = new Customer(123, "Prashanth", "aripiralap@gmail.com",
 				new Address("Hyderabad", "9885394447", "500054"), null);
 		SweetOrder s = new SweetOrder();
@@ -102,7 +102,7 @@ public class SweetOrderServiceTest {
 	}
 
 	@Test
-	public void test_ShowAllSweetOrder_ThrowSweetOrderNotFoundException() {
+	 void test_ShowAllSweetOrder_ThrowSweetOrderNotFoundException() {
 		try {
 			Mockito.when(service.ShowAllSweetOrder())
 					.thenThrow(new SweetOrderNotFoundException("No SweetOrder is found"));
@@ -113,7 +113,7 @@ public class SweetOrderServiceTest {
 	}
 
 	@Test
-	public void test_findSweetorderByOrderId_ThrowSweetOrderNotFoundException() {
+	 void test_findSweetorderByOrderId_ThrowSweetOrderNotFoundException() {
 		try {
 			Mockito.when(service.findOrderById(Mockito.anyInt()))
 					.thenThrow(new SweetOrderNotFoundException("No SweetOrder is found"));
@@ -123,7 +123,7 @@ public class SweetOrderServiceTest {
 	}
 
 	@Test
-	public void test_findSweetOrderByCustomerId_ThrowCustomerNotFoundException() {
+	 void test_findSweetOrderByCustomerId_ThrowCustomerNotFoundException() {
 		try {
 			Mockito.when(service.findOrdersByCustomerId(Mockito.anyInt()))
 					.thenThrow(new CustomerNotFoundException("Customer is not found"));
@@ -134,7 +134,7 @@ public class SweetOrderServiceTest {
 	}
 
 	@Test
-	public void test_deleteOrder_ThrowSweetOrderNotFoundException() {
+	 void test_deleteOrder_ThrowSweetOrderNotFoundException() {
 		try {
 			Mockito.when(service.cancelSweetOrder(Mockito.anyInt()))
 					.thenThrow(new SweetOrderNotFoundException("No orderId is found"));

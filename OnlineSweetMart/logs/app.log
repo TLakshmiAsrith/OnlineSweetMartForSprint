@@ -1158,3 +1158,980 @@ com.cg.osm.controller.LoginController#updateUser(User) mapped.
 2021-06-20 02:11:05,041 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
 2021-06-20 02:11:05,043 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
 2021-06-20 02:11:05,046 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2021-06-20 02:16:45,307 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(2)-127.0.0.1] Application shutdown requested.
+2021-06-20 02:16:45,345 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(2)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 02:16:45,347 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-06-20 02:16:45,351 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2021-06-20 02:16:45,771 INFO com.cg.osm.service.ProductServiceImpl [main] Product showAllProducts()
+2021-06-20 02:16:45,803 INFO com.cg.osm.service.ProductServiceImpl [main] Product findByProductId()
+2021-06-20 02:16:45,808 INFO com.cg.osm.service.ProductServiceImpl [main] Product deleteProduct()
+2021-06-20 02:16:45,817 INFO com.cg.osm.service.ProductServiceImpl [main] Product findByProductId()
+2021-06-20 02:16:45,819 INFO com.cg.osm.service.ProductServiceImpl [main] Product updateProduct()
+2021-06-20 02:16:45,821 INFO com.cg.osm.service.ProductServiceImpl [main] Product deleteProduct()
+2021-06-20 02:16:45,823 INFO com.cg.osm.service.ProductServiceImpl [main] Product showAllProducts()
+2021-06-20 02:16:45,825 INFO com.cg.osm.service.ProductServiceImpl [main] Product findByCategoryId()
+2021-06-20 02:16:45,827 INFO com.cg.osm.service.ProductServiceImpl [main] Product findByCategoryId()
+2021-06-20 02:16:45,907 INFO com.cg.osm.service.CustomerServiceImpl [main] Customer findCustomerById()
+2021-06-20 02:16:45,911 INFO com.cg.osm.service.CustomerServiceImpl [main] Customer updateCustomer()
+2021-06-20 02:16:45,914 INFO com.cg.osm.service.CustomerServiceImpl [main] Customer showAllCustomers()
+2021-06-20 02:16:45,915 INFO com.cg.osm.service.CustomerServiceImpl [main] Customer findCustomerByName()
+2021-06-20 02:16:45,917 INFO com.cg.osm.service.CustomerServiceImpl [main] Customer findCustomerById()
+2021-06-20 02:16:45,921 INFO com.cg.osm.service.CustomerServiceImpl [main] Customer showAllCustomers()
+2021-06-20 02:16:45,923 INFO com.cg.osm.service.CustomerServiceImpl [main] Customer findCustomerByName()
+2021-06-20 02:16:45,926 INFO com.cg.osm.service.CustomerServiceImpl [main] Customer deleteCustomer()
+2021-06-20 02:16:45,929 INFO com.cg.osm.service.CustomerServiceImpl [main] Customer deleteCustomer()
+2021-06-20 02:16:46,007 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.cg.osm.service.LoginServiceTest], using SpringBootContextLoader
+2021-06-20 02:16:46,012 INFO org.springframework.test.context.support.AbstractContextLoader [main] Could not detect default resource locations for test class [com.cg.osm.service.LoginServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-06-20 02:16:46,013 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.cg.osm.service.LoginServiceTest]: LoginServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-06-20 02:16:46,132 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.cg.osm.OnlineSweetMartApplication for test class com.cg.osm.service.LoginServiceTest
+2021-06-20 02:16:46,229 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-06-20 02:16:46,246 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@37045b48, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@60b34931, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@4aa21f9d, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@71c17a57, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@640ab13c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1e0a864d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@440e3ce6, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3e67f5f2, org.springframework.test.context.event.EventPublishingTestExecutionListener@fd53053, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4527f70a, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@707b1a44, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7132a9dc, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@57435801, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@2da66a44, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@527fc8e]
+2021-06-20 02:16:46,529 INFO com.cg.osm.service.LoginServiceTest [main] Starting LoginServiceTest using Java 15.0.2 on DESKTOP-VD908U2 with PID 8236 (started by vostr in C:\Users\vostr\git\OnlineSweetMartForSprint\OnlineSweetMart)
+2021-06-20 02:16:46,531 INFO com.cg.osm.service.LoginServiceTest [main] No active profile set, falling back to default profiles: default
+2021-06-20 02:16:46,540 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2021-06-20 02:16:47,777 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-20 02:16:47,867 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 79 ms. Found 5 JPA repository interfaces.
+2021-06-20 02:16:48,903 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-06-20 02:16:49,087 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-06-20 02:16:49,294 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-20 02:16:49,420 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-20 02:16:49,487 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-20 02:16:49,855 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-06-20 02:16:50,977 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2021-06-20 02:16:50,997 INFO com.cg.osm.OnlineSweetMartApplication [main] Starting OnlineSweetMartApplication using Java 15.0.2 on DESKTOP-VD908U2 with PID 5232 (C:\Users\vostr\git\OnlineSweetMartForSprint\OnlineSweetMart\bin\main started by vostr in C:\Users\vostr\git\OnlineSweetMartForSprint\OnlineSweetMart)
+2021-06-20 02:16:50,998 INFO com.cg.osm.OnlineSweetMartApplication [main] No active profile set, falling back to default profiles: default
+2021-06-20 02:16:51,267 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-20 02:16:51,279 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 02:16:52,262 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-20 02:16:52,363 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 86 ms. Found 5 JPA repository interfaces.
+2021-06-20 02:16:53,004 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-20 02:16:53,360 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-06-20 02:16:53,377 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-06-20 02:16:53,378 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-06-20 02:16:53,379 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-20 02:16:53,549 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-06-20 02:16:53,549 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2502 ms
+2021-06-20 02:16:53,777 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-06-20 02:16:53,951 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-06-20 02:16:54,076 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-20 02:16:54,167 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-20 02:16:54,394 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-20 02:16:54,568 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-06-20 02:16:56,161 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-20 02:16:56,175 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 02:16:56,255 INFO com.cg.osm.service.LoginServiceTest [main] Started LoginServiceTest in 9.971 seconds (JVM running for 12.112)
+2021-06-20 02:16:56,347 INFO com.cg.osm.service.LoginServiceImpl [main] User validateUser()
+2021-06-20 02:16:56,368 INFO com.cg.osm.service.LoginServiceImpl [main] User addUser()
+2021-06-20 02:16:56,389 INFO com.cg.osm.service.LoginServiceImpl [main] Customer showAllCustomers()
+2021-06-20 02:16:56,414 INFO com.cg.osm.service.CategoryServiceImpl [main] Category showAllCategories()
+2021-06-20 02:16:56,418 INFO com.cg.osm.service.CategoryServiceImpl [main] Category addCategory()
+2021-06-20 02:16:56,421 INFO com.cg.osm.service.CategoryServiceImpl [main] Category deleteCategoryById()
+2021-06-20 02:16:56,424 INFO com.cg.osm.service.CategoryServiceImpl [main] Category deleteCategoryById()
+2021-06-20 02:16:56,429 INFO com.cg.osm.service.CategoryServiceImpl [main] Category showAllCategories()
+2021-06-20 02:16:56,434 INFO com.cg.osm.service.CategoryServiceImpl [main] Category updateCategory()
+2021-06-20 02:16:56,437 INFO com.cg.osm.service.CategoryServiceImpl [main] Category getCategoryById()
+2021-06-20 02:16:56,440 INFO com.cg.osm.service.CategoryServiceImpl [main] Category getCategoryById()
+2021-06-20 02:16:56,483 INFO com.cg.osm.service.SweetOrderServiceImpl [main] SweetOrder cancelSweetOrder()
+2021-06-20 02:16:56,491 INFO com.cg.osm.service.SweetOrderServiceImpl [main] SweetOrder cancelSweetOrder()
+2021-06-20 02:16:56,495 INFO com.cg.osm.service.SweetOrderServiceImpl [main] SweetOrder findOrderById()
+2021-06-20 02:16:56,499 INFO com.cg.osm.service.SweetOrderServiceImpl [main] SweetOrder findOrdersByCustomerId()
+2021-06-20 02:16:56,504 INFO com.cg.osm.service.SweetOrderServiceImpl [main] SweetOrder findOrdersByCustomerId()
+2021-06-20 02:16:56,507 INFO com.cg.osm.service.SweetOrderServiceImpl [main] SweetOrder ShowAllSweetOrder()
+2021-06-20 02:16:56,510 INFO com.cg.osm.service.SweetOrderServiceImpl [main] SweetOrder findOrderById()
+2021-06-20 02:16:56,512 INFO com.cg.osm.service.SweetOrderServiceImpl [main] SweetOrder ShowAllSweetOrder()
+2021-06-20 02:16:56,520 INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper [main] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.cg.osm.controller.ProductControllerTest], using SpringBootContextLoader
+2021-06-20 02:16:56,522 INFO org.springframework.test.context.support.AbstractContextLoader [main] Could not detect default resource locations for test class [com.cg.osm.controller.ProductControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-06-20 02:16:56,522 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.cg.osm.controller.ProductControllerTest]: ProductControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-06-20 02:16:56,554 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.cg.osm.OnlineSweetMartApplication for test class com.cg.osm.controller.ProductControllerTest
+2021-06-20 02:16:56,555 INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper [main] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-06-20 02:16:56,556 INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper [main] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@26753687, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@765650e4, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@307cf289, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2df019b8, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@223ed38f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@66ab765c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@319428ba, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1c04dae9, org.springframework.test.context.event.EventPublishingTestExecutionListener@4872d04d, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@75564689, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@65977161, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5f7e2ca8, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1d07fb2, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@46f5030f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@18b77ec9]
+2021-06-20 02:16:56,602 INFO com.cg.osm.controller.ProductControllerTest [main] Starting ProductControllerTest using Java 15.0.2 on DESKTOP-VD908U2 with PID 8236 (started by vostr in C:\Users\vostr\git\OnlineSweetMartForSprint\OnlineSweetMart)
+2021-06-20 02:16:56,604 INFO com.cg.osm.controller.ProductControllerTest [main] No active profile set, falling back to default profiles: default
+2021-06-20 02:16:57,484 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-20 02:16:58,283 INFO org.springframework.boot.test.mock.web.SpringBootMockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2021-06-20 02:16:58,283 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Initializing Servlet ''
+2021-06-20 02:16:58,284 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Completed initialization in 1 ms
+2021-06-20 02:16:58,377 INFO com.cg.osm.controller.ProductControllerTest [main] Started ProductControllerTest in 1.816 seconds (JVM running for 14.233)
+2021-06-20 02:16:58,570 INFO com.cg.osm.controller.ProductController [main] Product addProduct()
+2021-06-20 02:16:58,603 INFO com.cg.osm.controller.ProductController [main] Product getProductById()
+2021-06-20 02:16:58,616 INFO com.cg.osm.controller.ProductController [main] Product deleteProduct()
+2021-06-20 02:16:58,629 INFO com.cg.osm.controller.ProductController [main] Product updateProduct()
+2021-06-20 02:16:58,641 INFO com.cg.osm.controller.ProductController [main] Product deleteProduct()
+2021-06-20 02:16:58,666 INFO com.cg.osm.controller.ProductController [main] Product showProducts()
+2021-06-20 02:16:58,684 INFO com.cg.osm.controller.ProductController [main] Product addProduct()
+2021-06-20 02:16:58,697 INFO com.cg.osm.controller.ProductController [main] Product showProductsOnCategory()
+2021-06-20 02:16:58,708 INFO com.cg.osm.controller.ProductController [main] Product showProductsOnCategory()
+2021-06-20 02:16:58,717 INFO com.cg.osm.controller.ProductController [main] Product updateProduct()
+2021-06-20 02:16:58,728 INFO com.cg.osm.controller.ProductController [main] Product showProducts()
+2021-06-20 02:16:58,734 INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper [main] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.cg.osm.controller.SweetControllerTest], using SpringBootContextLoader
+2021-06-20 02:16:58,735 INFO org.springframework.test.context.support.AbstractContextLoader [main] Could not detect default resource locations for test class [com.cg.osm.controller.SweetControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-06-20 02:16:58,736 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.cg.osm.controller.SweetControllerTest]: SweetControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-06-20 02:16:58,739 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.cg.osm.OnlineSweetMartApplication for test class com.cg.osm.controller.SweetControllerTest
+2021-06-20 02:16:58,740 INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper [main] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-06-20 02:16:58,740 INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper [main] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3fc736c4, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@770d65c2, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@44acce5d, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3eacf08e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@38db8089, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2464c125, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6183dd2, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5fe9851f, org.springframework.test.context.event.EventPublishingTestExecutionListener@3b5299a3, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@393d1a05, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7e8c465d, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6d5ef5ee, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@426ee667, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@1352211d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@ff03384]
+2021-06-20 02:16:58,781 INFO com.cg.osm.controller.SweetControllerTest [main] Starting SweetControllerTest using Java 15.0.2 on DESKTOP-VD908U2 with PID 8236 (started by vostr in C:\Users\vostr\git\OnlineSweetMartForSprint\OnlineSweetMart)
+2021-06-20 02:16:58,782 INFO com.cg.osm.controller.SweetControllerTest [main] No active profile set, falling back to default profiles: default
+2021-06-20 02:16:58,946 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-06-20 02:16:58,978 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-20 02:16:59,770 INFO com.cg.osm.OnlineSweetMartApplication [main] Started OnlineSweetMartApplication in 9.269 seconds (JVM running for 10.374)
+2021-06-20 02:17:00,146 INFO org.springframework.boot.test.mock.web.SpringBootMockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2021-06-20 02:17:00,147 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Initializing Servlet ''
+2021-06-20 02:17:00,148 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Completed initialization in 1 ms
+2021-06-20 02:17:00,215 INFO com.cg.osm.controller.SweetControllerTest [main] Started SweetControllerTest in 1.471 seconds (JVM running for 16.071)
+2021-06-20 02:17:00,223 INFO com.cg.osm.controller.SweetController [main] SweetOrder retreiveAllSweet()
+2021-06-20 02:17:00,232 INFO com.cg.osm.controller.SweetController [main] SweetOrder cancelSweetOrder()
+2021-06-20 02:17:00,242 INFO com.cg.osm.controller.SweetController [main] SweetOrder findOrderBySweetOrderId()
+2021-06-20 02:17:00,254 INFO com.cg.osm.controller.SweetController [main] SweetOrder findOrdersByCustomerId()
+2021-06-20 02:17:00,295 INFO com.cg.osm.controller.SweetController [main] SweetOrder addSweetOrder()
+2021-06-20 02:17:00,307 INFO com.cg.osm.controller.SweetController [main] SweetOrder cancelSweetOrder()
+2021-06-20 02:17:00,320 INFO com.cg.osm.controller.SweetController [main] SweetOrder findOrdersByCustomerId()
+2021-06-20 02:17:00,333 INFO com.cg.osm.controller.SweetController [main] SweetOrder retreiveAllSweet()
+2021-06-20 02:17:00,340 INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper [main] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.cg.osm.controller.CategoryControllerTest], using SpringBootContextLoader
+2021-06-20 02:17:00,341 INFO org.springframework.test.context.support.AbstractContextLoader [main] Could not detect default resource locations for test class [com.cg.osm.controller.CategoryControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-06-20 02:17:00,342 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.cg.osm.controller.CategoryControllerTest]: CategoryControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-06-20 02:17:00,346 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.cg.osm.OnlineSweetMartApplication for test class com.cg.osm.controller.CategoryControllerTest
+2021-06-20 02:17:00,347 INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper [main] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-06-20 02:17:00,348 INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper [main] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@699e81db, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@8ace41e, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@78276d6d, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@18be5bce, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5b3915b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6ad019e7, org.springframework.test.context.transaction.TransactionalTestExecutionListener@295f5dd5, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@43d5031b, org.springframework.test.context.event.EventPublishingTestExecutionListener@5af57b73, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@30004eeb, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@63e21ccb, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@8c41677, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@791bdaff, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@4bdea421, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3829edd5]
+2021-06-20 02:17:00,378 INFO com.cg.osm.controller.CategoryControllerTest [main] Starting CategoryControllerTest using Java 15.0.2 on DESKTOP-VD908U2 with PID 8236 (started by vostr in C:\Users\vostr\git\OnlineSweetMartForSprint\OnlineSweetMart)
+2021-06-20 02:17:00,379 INFO com.cg.osm.controller.CategoryControllerTest [main] No active profile set, falling back to default profiles: default
+2021-06-20 02:17:01,425 INFO org.springframework.boot.test.mock.web.SpringBootMockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2021-06-20 02:17:01,426 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Initializing Servlet ''
+2021-06-20 02:17:01,426 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Completed initialization in 0 ms
+2021-06-20 02:17:01,463 INFO com.cg.osm.controller.CategoryControllerTest [main] Started CategoryControllerTest in 1.111 seconds (JVM running for 17.32)
+2021-06-20 02:17:01,480 INFO com.cg.osm.controller.CategoryController [main] Category updateCategory()
+2021-06-20 02:17:01,490 INFO com.cg.osm.controller.CategoryController [main] Category updateCategory()
+2021-06-20 02:17:01,501 INFO com.cg.osm.controller.CategoryController [main] Category addCategory()
+2021-06-20 02:17:01,509 INFO com.cg.osm.controller.CategoryController [main] Category deleteCategoryById()
+2021-06-20 02:17:01,524 INFO com.cg.osm.controller.CategoryController [main] Category showAllCategories()
+2021-06-20 02:17:01,532 INFO com.cg.osm.controller.CategoryController [main] Category showAllCategories()
+2021-06-20 02:17:01,542 INFO com.cg.osm.controller.CategoryController [main] Category getCategoryById()
+2021-06-20 02:17:01,560 INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper [main] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.cg.osm.controller.CustomerControllerTest], using SpringBootContextLoader
+2021-06-20 02:17:01,561 INFO org.springframework.test.context.support.AbstractContextLoader [main] Could not detect default resource locations for test class [com.cg.osm.controller.CustomerControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-06-20 02:17:01,561 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.cg.osm.controller.CustomerControllerTest]: CustomerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-06-20 02:17:01,563 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.cg.osm.OnlineSweetMartApplication for test class com.cg.osm.controller.CustomerControllerTest
+2021-06-20 02:17:01,564 INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper [main] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-06-20 02:17:01,564 INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper [main] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@74e2de39, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@37630101, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@26a32fa5, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@57f778e9, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@35067738, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1a420390, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2523c97a, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@49ffcd07, org.springframework.test.context.event.EventPublishingTestExecutionListener@4fc6dcb7, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4512085c, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7e41619d, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@49e11ca7, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@30bb4248, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@65beeceb, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@10063448]
+2021-06-20 02:17:01,597 INFO com.cg.osm.controller.CustomerControllerTest [main] Starting CustomerControllerTest using Java 15.0.2 on DESKTOP-VD908U2 with PID 8236 (started by vostr in C:\Users\vostr\git\OnlineSweetMartForSprint\OnlineSweetMart)
+2021-06-20 02:17:01,598 INFO com.cg.osm.controller.CustomerControllerTest [main] No active profile set, falling back to default profiles: default
+2021-06-20 02:17:02,598 INFO org.springframework.boot.test.mock.web.SpringBootMockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2021-06-20 02:17:02,599 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Initializing Servlet ''
+2021-06-20 02:17:02,599 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Completed initialization in 0 ms
+2021-06-20 02:17:02,699 INFO com.cg.osm.controller.CustomerControllerTest [main] Started CustomerControllerTest in 1.132 seconds (JVM running for 18.555)
+2021-06-20 02:17:02,709 INFO com.cg.osm.controller.CustomerController [main] Customer findCustomerById()
+2021-06-20 02:17:02,724 INFO com.cg.osm.controller.CustomerController [main] Customer showAllCustomers()
+2021-06-20 02:17:02,762 INFO com.cg.osm.controller.CustomerController [main] Customer findCustomerByName()
+2021-06-20 02:17:02,769 INFO com.cg.osm.controller.CustomerController [main] Customer deleteCustomer()
+2021-06-20 02:17:02,777 INFO com.cg.osm.controller.CustomerController [main] Customer showAllCustomers()
+2021-06-20 02:17:02,784 INFO com.cg.osm.controller.CustomerController [main] Customer deleteCustomer()
+2021-06-20 02:17:02,789 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.cg.osm.OnlineSweetMartApplicationTests], using SpringBootContextLoader
+2021-06-20 02:17:02,790 INFO org.springframework.test.context.support.AbstractContextLoader [main] Could not detect default resource locations for test class [com.cg.osm.OnlineSweetMartApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-06-20 02:17:02,790 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.cg.osm.OnlineSweetMartApplicationTests]: OnlineSweetMartApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-06-20 02:17:02,795 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.cg.osm.OnlineSweetMartApplication for test class com.cg.osm.OnlineSweetMartApplicationTests
+2021-06-20 02:17:02,797 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-06-20 02:17:02,798 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6d37c176, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@64b71b49, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@5d548872, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7d576ea9, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2eb82c04, org.springframework.test.context.support.DirtiesContextTestExecutionListener@720907c9, org.springframework.test.context.transaction.TransactionalTestExecutionListener@be706e2, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4d031311, org.springframework.test.context.event.EventPublishingTestExecutionListener@22b4ceb9, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@18b9b269, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2bda778a, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7e14627b, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7a51ba06, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@2fae65df, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@57b03187]
+2021-06-20 02:17:02,824 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 02:17:02,827 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-06-20 02:17:02,830 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2021-06-20 02:17:14,407 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(2)-127.0.0.1] Application shutdown requested.
+2021-06-20 02:17:14,437 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(2)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 02:17:14,439 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-06-20 02:17:14,441 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2021-06-20 02:17:18,603 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2021-06-20 02:17:18,616 INFO com.cg.osm.OnlineSweetMartApplication [main] Starting OnlineSweetMartApplication using Java 15.0.2 on DESKTOP-VD908U2 with PID 11196 (C:\Users\vostr\git\OnlineSweetMartForSprint\OnlineSweetMart\bin\main started by vostr in C:\Users\vostr\git\OnlineSweetMartForSprint\OnlineSweetMart)
+2021-06-20 02:17:18,617 INFO com.cg.osm.OnlineSweetMartApplication [main] No active profile set, falling back to default profiles: default
+2021-06-20 02:17:19,420 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-20 02:17:19,490 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 62 ms. Found 5 JPA repository interfaces.
+2021-06-20 02:17:20,015 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-06-20 02:17:20,023 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-06-20 02:17:20,024 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-06-20 02:17:20,024 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-20 02:17:20,123 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-06-20 02:17:20,123 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1465 ms
+2021-06-20 02:17:20,235 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-06-20 02:17:20,329 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-06-20 02:17:20,399 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-20 02:17:20,443 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-20 02:17:20,563 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-20 02:17:20,693 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-06-20 02:17:21,636 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-20 02:17:21,644 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 02:17:22,305 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-20 02:17:23,110 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-06-20 02:17:23,129 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-20 02:17:23,545 INFO com.cg.osm.OnlineSweetMartApplication [main] Started OnlineSweetMartApplication in 5.192 seconds (JVM running for 5.903)
+2021-06-20 02:19:13,984 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(2)-127.0.0.1] Application shutdown requested.
+2021-06-20 02:19:14,016 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(2)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 02:19:14,017 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-06-20 02:19:14,020 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2021-06-20 02:27:46,978 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2021-06-20 02:27:46,991 INFO com.cg.osm.OnlineSweetMartApplication [main] Starting OnlineSweetMartApplication using Java 15.0.2 on DESKTOP-VD908U2 with PID 12404 (C:\Users\vostr\git\OnlineSweetMartForSprint\OnlineSweetMart\bin\main started by vostr in C:\Users\vostr\git\OnlineSweetMartForSprint\OnlineSweetMart)
+2021-06-20 02:27:46,991 INFO com.cg.osm.OnlineSweetMartApplication [main] No active profile set, falling back to default profiles: default
+2021-06-20 02:27:47,727 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-20 02:27:47,787 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 52 ms. Found 5 JPA repository interfaces.
+2021-06-20 02:27:48,266 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-06-20 02:27:48,273 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-06-20 02:27:48,273 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-06-20 02:27:48,273 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-20 02:27:48,366 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-06-20 02:27:48,367 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1341 ms
+2021-06-20 02:27:48,475 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-06-20 02:27:48,560 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-06-20 02:27:48,632 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-20 02:27:48,674 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-20 02:27:48,797 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-20 02:27:48,888 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-06-20 02:27:49,757 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-20 02:27:49,763 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 02:27:50,370 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-20 02:27:51,092 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-06-20 02:27:51,110 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-20 02:27:51,513 INFO com.cg.osm.OnlineSweetMartApplication [main] Started OnlineSweetMartApplication in 4.82 seconds (JVM running for 5.616)
+2021-06-20 02:29:19,525 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(2)-127.0.0.1] Application shutdown requested.
+2021-06-20 02:29:19,565 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(2)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 02:29:19,566 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-06-20 02:29:19,569 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2021-06-20 02:29:23,958 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2021-06-20 02:29:23,970 INFO com.cg.osm.OnlineSweetMartApplication [main] Starting OnlineSweetMartApplication using Java 15.0.2 on DESKTOP-VD908U2 with PID 10248 (C:\Users\vostr\git\OnlineSweetMartForSprint\OnlineSweetMart\bin\main started by vostr in C:\Users\vostr\git\OnlineSweetMartForSprint\OnlineSweetMart)
+2021-06-20 02:29:23,970 INFO com.cg.osm.OnlineSweetMartApplication [main] No active profile set, falling back to default profiles: default
+2021-06-20 02:29:24,716 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-20 02:29:24,769 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 46 ms. Found 5 JPA repository interfaces.
+2021-06-20 02:29:25,267 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-06-20 02:29:25,275 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-06-20 02:29:25,275 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-06-20 02:29:25,275 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-20 02:29:25,362 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-06-20 02:29:25,363 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1357 ms
+2021-06-20 02:29:25,469 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-06-20 02:29:25,549 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-06-20 02:29:25,616 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-20 02:29:25,652 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-20 02:29:25,765 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-20 02:29:25,866 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-06-20 02:29:26,735 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-20 02:29:26,742 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 02:29:27,391 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-20 02:29:28,125 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-06-20 02:29:28,142 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-20 02:29:28,531 INFO com.cg.osm.OnlineSweetMartApplication [main] Started OnlineSweetMartApplication in 4.81 seconds (JVM running for 5.567)
+2021-06-20 02:30:06,878 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-20 02:30:06,879 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-06-20 02:30:06,880 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-06-20 02:30:32,665 INFO com.cg.osm.controller.CategoryController [http-nio-8080-exec-5] Category addCategory()
+2021-06-20 02:30:32,665 INFO com.cg.osm.service.CategoryServiceImpl [http-nio-8080-exec-5] Category addCategory()
+2021-06-20 02:30:46,504 INFO com.cg.osm.controller.CategoryController [http-nio-8080-exec-6] Category addCategory()
+2021-06-20 02:30:46,504 INFO com.cg.osm.service.CategoryServiceImpl [http-nio-8080-exec-6] Category addCategory()
+2021-06-20 02:31:28,660 INFO com.cg.osm.controller.CategoryController [http-nio-8080-exec-7] Category deleteCategoryById()
+2021-06-20 02:31:28,661 INFO com.cg.osm.service.CategoryServiceImpl [http-nio-8080-exec-7] Category deleteCategoryById()
+2021-06-20 02:34:09,662 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(2)-127.0.0.1] Application shutdown requested.
+2021-06-20 02:34:09,690 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(2)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 02:34:09,692 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-06-20 02:34:09,693 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2021-06-20 02:34:21,458 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2021-06-20 02:34:21,470 INFO com.cg.osm.OnlineSweetMartApplication [main] Starting OnlineSweetMartApplication using Java 15.0.2 on DESKTOP-VD908U2 with PID 11840 (C:\Users\vostr\git\OnlineSweetMartForSprint\OnlineSweetMart\bin\main started by vostr in C:\Users\vostr\git\OnlineSweetMartForSprint\OnlineSweetMart)
+2021-06-20 02:34:21,470 INFO com.cg.osm.OnlineSweetMartApplication [main] No active profile set, falling back to default profiles: default
+2021-06-20 02:34:22,179 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-20 02:34:22,237 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 50 ms. Found 5 JPA repository interfaces.
+2021-06-20 02:34:22,700 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-06-20 02:34:22,707 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-06-20 02:34:22,708 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-06-20 02:34:22,708 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-20 02:34:22,803 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-06-20 02:34:22,803 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1300 ms
+2021-06-20 02:34:22,905 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-06-20 02:34:22,990 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-06-20 02:34:23,055 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-20 02:34:23,092 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-20 02:34:23,199 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-20 02:34:23,307 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-06-20 02:34:24,149 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-20 02:34:24,156 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 02:34:24,806 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-20 02:34:25,576 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-06-20 02:34:25,595 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-20 02:34:26,024 INFO com.cg.osm.OnlineSweetMartApplication [main] Started OnlineSweetMartApplication in 4.8 seconds (JVM running for 5.56)
+2021-06-20 02:34:46,185 INFO com.cg.osm.service.ProductServiceImpl [main] Product showAllProducts()
+2021-06-20 02:34:46,221 INFO com.cg.osm.service.ProductServiceImpl [main] Product findByProductId()
+2021-06-20 02:34:46,226 INFO com.cg.osm.service.ProductServiceImpl [main] Product deleteProduct()
+2021-06-20 02:34:46,236 INFO com.cg.osm.service.ProductServiceImpl [main] Product findByProductId()
+2021-06-20 02:34:46,238 INFO com.cg.osm.service.ProductServiceImpl [main] Product updateProduct()
+2021-06-20 02:34:46,240 INFO com.cg.osm.service.ProductServiceImpl [main] Product deleteProduct()
+2021-06-20 02:34:46,244 INFO com.cg.osm.service.ProductServiceImpl [main] Product showAllProducts()
+2021-06-20 02:34:46,246 INFO com.cg.osm.service.ProductServiceImpl [main] Product findByCategoryId()
+2021-06-20 02:34:46,249 INFO com.cg.osm.service.ProductServiceImpl [main] Product findByCategoryId()
+2021-06-20 02:34:46,339 INFO com.cg.osm.service.CustomerServiceImpl [main] Customer findCustomerById()
+2021-06-20 02:34:46,342 INFO com.cg.osm.service.CustomerServiceImpl [main] Customer updateCustomer()
+2021-06-20 02:34:46,344 INFO com.cg.osm.service.CustomerServiceImpl [main] Customer showAllCustomers()
+2021-06-20 02:34:46,345 INFO com.cg.osm.service.CustomerServiceImpl [main] Customer findCustomerByName()
+2021-06-20 02:34:46,347 INFO com.cg.osm.service.CustomerServiceImpl [main] Customer findCustomerById()
+2021-06-20 02:34:46,349 INFO com.cg.osm.service.CustomerServiceImpl [main] Customer showAllCustomers()
+2021-06-20 02:34:46,351 INFO com.cg.osm.service.CustomerServiceImpl [main] Customer findCustomerByName()
+2021-06-20 02:34:46,353 INFO com.cg.osm.service.CustomerServiceImpl [main] Customer deleteCustomer()
+2021-06-20 02:34:46,358 INFO com.cg.osm.service.CustomerServiceImpl [main] Customer deleteCustomer()
+2021-06-20 02:34:46,450 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.cg.osm.service.LoginServiceTest], using SpringBootContextLoader
+2021-06-20 02:34:46,457 INFO org.springframework.test.context.support.AbstractContextLoader [main] Could not detect default resource locations for test class [com.cg.osm.service.LoginServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-06-20 02:34:46,458 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.cg.osm.service.LoginServiceTest]: LoginServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-06-20 02:34:46,574 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.cg.osm.OnlineSweetMartApplication for test class com.cg.osm.service.LoginServiceTest
+2021-06-20 02:34:46,696 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-06-20 02:34:46,718 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@37045b48, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@60b34931, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@4aa21f9d, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@71c17a57, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@640ab13c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1e0a864d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@440e3ce6, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3e67f5f2, org.springframework.test.context.event.EventPublishingTestExecutionListener@fd53053, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4527f70a, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@707b1a44, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7132a9dc, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@57435801, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@2da66a44, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@527fc8e]
+2021-06-20 02:34:47,023 INFO com.cg.osm.service.LoginServiceTest [main] Starting LoginServiceTest using Java 15.0.2 on DESKTOP-VD908U2 with PID 13248 (started by vostr in C:\Users\vostr\git\OnlineSweetMartForSprint\OnlineSweetMart)
+2021-06-20 02:34:47,024 INFO com.cg.osm.service.LoginServiceTest [main] No active profile set, falling back to default profiles: default
+2021-06-20 02:34:47,027 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2021-06-20 02:34:48,299 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-20 02:34:48,396 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 87 ms. Found 5 JPA repository interfaces.
+2021-06-20 02:34:49,156 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-06-20 02:34:49,321 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-06-20 02:34:49,457 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-20 02:34:49,578 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-20 02:34:49,634 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-20 02:34:49,843 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-06-20 02:34:50,780 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-20 02:34:50,789 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 02:34:52,047 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-20 02:34:54,544 INFO com.cg.osm.service.LoginServiceTest [main] Started LoginServiceTest in 7.773 seconds (JVM running for 10.204)
+2021-06-20 02:34:54,622 INFO com.cg.osm.service.LoginServiceImpl [main] User validateUser()
+2021-06-20 02:34:54,633 INFO com.cg.osm.service.LoginServiceImpl [main] User addUser()
+2021-06-20 02:34:54,647 INFO com.cg.osm.service.LoginServiceImpl [main] Customer showAllCustomers()
+2021-06-20 02:34:54,671 INFO com.cg.osm.service.CategoryServiceImpl [main] Category showAllCategories()
+2021-06-20 02:34:54,674 INFO com.cg.osm.service.CategoryServiceImpl [main] Category addCategory()
+2021-06-20 02:34:54,678 INFO com.cg.osm.service.CategoryServiceImpl [main] Category deleteCategoryById()
+2021-06-20 02:34:54,681 INFO com.cg.osm.service.CategoryServiceImpl [main] Category deleteCategoryById()
+2021-06-20 02:34:54,686 INFO com.cg.osm.service.CategoryServiceImpl [main] Category showAllCategories()
+2021-06-20 02:34:54,693 INFO com.cg.osm.service.CategoryServiceImpl [main] Category updateCategory()
+2021-06-20 02:34:54,696 INFO com.cg.osm.service.CategoryServiceImpl [main] Category getCategoryById()
+2021-06-20 02:34:54,699 INFO com.cg.osm.service.CategoryServiceImpl [main] Category getCategoryById()
+2021-06-20 02:34:54,740 INFO com.cg.osm.service.SweetOrderServiceImpl [main] SweetOrder cancelSweetOrder()
+2021-06-20 02:34:54,747 INFO com.cg.osm.service.SweetOrderServiceImpl [main] SweetOrder cancelSweetOrder()
+2021-06-20 02:34:54,749 INFO com.cg.osm.service.SweetOrderServiceImpl [main] SweetOrder findOrderById()
+2021-06-20 02:34:54,751 INFO com.cg.osm.service.SweetOrderServiceImpl [main] SweetOrder findOrdersByCustomerId()
+2021-06-20 02:34:54,755 INFO com.cg.osm.service.SweetOrderServiceImpl [main] SweetOrder findOrdersByCustomerId()
+2021-06-20 02:34:54,758 INFO com.cg.osm.service.SweetOrderServiceImpl [main] SweetOrder ShowAllSweetOrder()
+2021-06-20 02:34:54,760 INFO com.cg.osm.service.SweetOrderServiceImpl [main] SweetOrder findOrderById()
+2021-06-20 02:34:54,761 INFO com.cg.osm.service.SweetOrderServiceImpl [main] SweetOrder ShowAllSweetOrder()
+2021-06-20 02:34:54,769 INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper [main] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.cg.osm.controller.ProductControllerTest], using SpringBootContextLoader
+2021-06-20 02:34:54,771 INFO org.springframework.test.context.support.AbstractContextLoader [main] Could not detect default resource locations for test class [com.cg.osm.controller.ProductControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-06-20 02:34:54,771 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.cg.osm.controller.ProductControllerTest]: ProductControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-06-20 02:34:54,797 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.cg.osm.OnlineSweetMartApplication for test class com.cg.osm.controller.ProductControllerTest
+2021-06-20 02:34:54,798 INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper [main] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-06-20 02:34:54,799 INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper [main] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@18b77ec9, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@36821a1b, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@34adce96, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5a2e4e77, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@794c22cd, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5fb8ad3d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5bb0122, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2d4eba14, org.springframework.test.context.event.EventPublishingTestExecutionListener@358caf3a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2fc72df3, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@72288b38, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2aee0173, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7acb8e6b, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@6c758c74, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5a32ab89]
+2021-06-20 02:34:54,839 INFO com.cg.osm.controller.ProductControllerTest [main] Starting ProductControllerTest using Java 15.0.2 on DESKTOP-VD908U2 with PID 13248 (started by vostr in C:\Users\vostr\git\OnlineSweetMartForSprint\OnlineSweetMart)
+2021-06-20 02:34:54,840 INFO com.cg.osm.controller.ProductControllerTest [main] No active profile set, falling back to default profiles: default
+2021-06-20 02:34:56,155 INFO org.springframework.boot.test.mock.web.SpringBootMockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2021-06-20 02:34:56,156 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Initializing Servlet ''
+2021-06-20 02:34:56,157 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Completed initialization in 1 ms
+2021-06-20 02:34:56,232 INFO com.cg.osm.controller.ProductControllerTest [main] Started ProductControllerTest in 1.429 seconds (JVM running for 11.893)
+2021-06-20 02:34:56,395 INFO com.cg.osm.controller.ProductController [main] Product addProduct()
+2021-06-20 02:34:56,428 INFO com.cg.osm.controller.ProductController [main] Product getProductById()
+2021-06-20 02:34:56,438 INFO com.cg.osm.controller.ProductController [main] Product deleteProduct()
+2021-06-20 02:34:56,447 INFO com.cg.osm.controller.ProductController [main] Product updateProduct()
+2021-06-20 02:34:56,461 INFO com.cg.osm.controller.ProductController [main] Product deleteProduct()
+2021-06-20 02:34:56,478 INFO com.cg.osm.controller.ProductController [main] Product showProducts()
+2021-06-20 02:34:56,487 INFO com.cg.osm.controller.ProductController [main] Product addProduct()
+2021-06-20 02:34:56,497 INFO com.cg.osm.controller.ProductController [main] Product showProductsOnCategory()
+2021-06-20 02:34:56,506 INFO com.cg.osm.controller.ProductController [main] Product showProductsOnCategory()
+2021-06-20 02:34:56,514 INFO com.cg.osm.controller.ProductController [main] Product updateProduct()
+2021-06-20 02:34:56,524 INFO com.cg.osm.controller.ProductController [main] Product showProducts()
+2021-06-20 02:34:56,531 INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper [main] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.cg.osm.controller.SweetControllerTest], using SpringBootContextLoader
+2021-06-20 02:34:56,533 INFO org.springframework.test.context.support.AbstractContextLoader [main] Could not detect default resource locations for test class [com.cg.osm.controller.SweetControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-06-20 02:34:56,533 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.cg.osm.controller.SweetControllerTest]: SweetControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-06-20 02:34:56,537 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.cg.osm.OnlineSweetMartApplication for test class com.cg.osm.controller.SweetControllerTest
+2021-06-20 02:34:56,538 INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper [main] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-06-20 02:34:56,538 INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper [main] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@ff03384, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@159b4611, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@2073d71b, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@22ab40c1, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2c492b03, org.springframework.test.context.support.DirtiesContextTestExecutionListener@63ad4b55, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5dd88334, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@258d7d06, org.springframework.test.context.event.EventPublishingTestExecutionListener@40f95b87, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4907472e, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@50dfac19, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1ef48e49, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@145bcb73, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@6716d0e1, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4a04177e]
+2021-06-20 02:34:56,573 INFO com.cg.osm.controller.SweetControllerTest [main] Starting SweetControllerTest using Java 15.0.2 on DESKTOP-VD908U2 with PID 13248 (started by vostr in C:\Users\vostr\git\OnlineSweetMartForSprint\OnlineSweetMart)
+2021-06-20 02:34:56,574 INFO com.cg.osm.controller.SweetControllerTest [main] No active profile set, falling back to default profiles: default
+2021-06-20 02:34:57,758 INFO org.springframework.boot.test.mock.web.SpringBootMockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2021-06-20 02:34:57,759 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Initializing Servlet ''
+2021-06-20 02:34:57,760 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Completed initialization in 1 ms
+2021-06-20 02:34:57,840 INFO com.cg.osm.controller.SweetControllerTest [main] Started SweetControllerTest in 1.299 seconds (JVM running for 13.5)
+2021-06-20 02:34:57,849 INFO com.cg.osm.controller.SweetController [main] SweetOrder retreiveAllSweet()
+2021-06-20 02:34:57,859 INFO com.cg.osm.controller.SweetController [main] SweetOrder cancelSweetOrder()
+2021-06-20 02:34:57,870 INFO com.cg.osm.controller.SweetController [main] SweetOrder findOrderBySweetOrderId()
+2021-06-20 02:34:57,880 INFO com.cg.osm.controller.SweetController [main] SweetOrder findOrdersByCustomerId()
+2021-06-20 02:34:57,913 INFO com.cg.osm.controller.SweetController [main] SweetOrder addSweetOrder()
+2021-06-20 02:34:57,921 INFO com.cg.osm.controller.SweetController [main] SweetOrder cancelSweetOrder()
+2021-06-20 02:34:57,928 INFO com.cg.osm.controller.SweetController [main] SweetOrder findOrdersByCustomerId()
+2021-06-20 02:34:57,940 INFO com.cg.osm.controller.SweetController [main] SweetOrder retreiveAllSweet()
+2021-06-20 02:34:57,947 INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper [main] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.cg.osm.controller.CategoryControllerTest], using SpringBootContextLoader
+2021-06-20 02:34:57,949 INFO org.springframework.test.context.support.AbstractContextLoader [main] Could not detect default resource locations for test class [com.cg.osm.controller.CategoryControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-06-20 02:34:57,949 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.cg.osm.controller.CategoryControllerTest]: CategoryControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-06-20 02:34:57,954 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.cg.osm.OnlineSweetMartApplication for test class com.cg.osm.controller.CategoryControllerTest
+2021-06-20 02:34:57,954 INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper [main] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-06-20 02:34:57,954 INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper [main] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@791bdaff, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4bdea421, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@3829edd5, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@10762309, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@379ddfda, org.springframework.test.context.support.DirtiesContextTestExecutionListener@9dc9aa4, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7e6c990f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5f2383a0, org.springframework.test.context.event.EventPublishingTestExecutionListener@619f491, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6bfd574c, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@71c31fdd, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@323ebcc6, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7bca7b6c, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@7a0c046e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@13d8d105]
+2021-06-20 02:34:57,990 INFO com.cg.osm.controller.CategoryControllerTest [main] Starting CategoryControllerTest using Java 15.0.2 on DESKTOP-VD908U2 with PID 13248 (started by vostr in C:\Users\vostr\git\OnlineSweetMartForSprint\OnlineSweetMart)
+2021-06-20 02:34:57,990 INFO com.cg.osm.controller.CategoryControllerTest [main] No active profile set, falling back to default profiles: default
+2021-06-20 02:34:59,049 INFO org.springframework.boot.test.mock.web.SpringBootMockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2021-06-20 02:34:59,049 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Initializing Servlet ''
+2021-06-20 02:34:59,050 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Completed initialization in 0 ms
+2021-06-20 02:34:59,098 INFO com.cg.osm.controller.CategoryControllerTest [main] Started CategoryControllerTest in 1.141 seconds (JVM running for 14.758)
+2021-06-20 02:34:59,112 INFO com.cg.osm.controller.CategoryController [main] Category updateCategory()
+2021-06-20 02:34:59,119 INFO com.cg.osm.controller.CategoryController [main] Category updateCategory()
+2021-06-20 02:34:59,129 INFO com.cg.osm.controller.CategoryController [main] Category addCategory()
+2021-06-20 02:34:59,139 INFO com.cg.osm.controller.CategoryController [main] Category deleteCategoryById()
+2021-06-20 02:34:59,162 INFO com.cg.osm.controller.CategoryController [main] Category showAllCategories()
+2021-06-20 02:34:59,180 INFO com.cg.osm.controller.CategoryController [main] Category showAllCategories()
+2021-06-20 02:34:59,192 INFO com.cg.osm.controller.CategoryController [main] Category getCategoryById()
+2021-06-20 02:34:59,234 INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper [main] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.cg.osm.controller.CustomerControllerTest], using SpringBootContextLoader
+2021-06-20 02:34:59,235 INFO org.springframework.test.context.support.AbstractContextLoader [main] Could not detect default resource locations for test class [com.cg.osm.controller.CustomerControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-06-20 02:34:59,235 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.cg.osm.controller.CustomerControllerTest]: CustomerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-06-20 02:34:59,239 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.cg.osm.OnlineSweetMartApplication for test class com.cg.osm.controller.CustomerControllerTest
+2021-06-20 02:34:59,239 INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper [main] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-06-20 02:34:59,240 INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper [main] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@30bb4248, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@65beeceb, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@10063448, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@51c316cb, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3b00a7b9, org.springframework.test.context.support.DirtiesContextTestExecutionListener@29cbdd86, org.springframework.test.context.transaction.TransactionalTestExecutionListener@84e1883, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@41f2320f, org.springframework.test.context.event.EventPublishingTestExecutionListener@7f7168e7, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@8a1bd62, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@70d336f5, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@206100aa, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@54236211, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@516c8f5a, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@38617f1c]
+2021-06-20 02:34:59,281 INFO com.cg.osm.controller.CustomerControllerTest [main] Starting CustomerControllerTest using Java 15.0.2 on DESKTOP-VD908U2 with PID 13248 (started by vostr in C:\Users\vostr\git\OnlineSweetMartForSprint\OnlineSweetMart)
+2021-06-20 02:34:59,283 INFO com.cg.osm.controller.CustomerControllerTest [main] No active profile set, falling back to default profiles: default
+2021-06-20 02:35:00,423 INFO org.springframework.boot.test.mock.web.SpringBootMockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2021-06-20 02:35:00,423 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Initializing Servlet ''
+2021-06-20 02:35:00,424 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Completed initialization in 1 ms
+2021-06-20 02:35:00,498 INFO com.cg.osm.controller.CustomerControllerTest [main] Started CustomerControllerTest in 1.254 seconds (JVM running for 16.157)
+2021-06-20 02:35:00,515 INFO com.cg.osm.controller.CustomerController [main] Customer findCustomerById()
+2021-06-20 02:35:00,534 INFO com.cg.osm.controller.CustomerController [main] Customer showAllCustomers()
+2021-06-20 02:35:00,584 INFO com.cg.osm.controller.CustomerController [main] Customer findCustomerByName()
+2021-06-20 02:35:00,591 INFO com.cg.osm.controller.CustomerController [main] Customer deleteCustomer()
+2021-06-20 02:35:00,601 INFO com.cg.osm.controller.CustomerController [main] Customer showAllCustomers()
+2021-06-20 02:35:00,612 INFO com.cg.osm.controller.CustomerController [main] Customer deleteCustomer()
+2021-06-20 02:35:00,620 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.cg.osm.OnlineSweetMartApplicationTests], using SpringBootContextLoader
+2021-06-20 02:35:00,621 INFO org.springframework.test.context.support.AbstractContextLoader [main] Could not detect default resource locations for test class [com.cg.osm.OnlineSweetMartApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-06-20 02:35:00,621 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.cg.osm.OnlineSweetMartApplicationTests]: OnlineSweetMartApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-06-20 02:35:00,629 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.cg.osm.OnlineSweetMartApplication for test class com.cg.osm.OnlineSweetMartApplicationTests
+2021-06-20 02:35:00,632 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-06-20 02:35:00,632 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@57b03187, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@aea96b0, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7d9c8c61, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@21c09e90, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@77aabf26, org.springframework.test.context.support.DirtiesContextTestExecutionListener@292be875, org.springframework.test.context.transaction.TransactionalTestExecutionListener@304d96b5, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@15dcaa32, org.springframework.test.context.event.EventPublishingTestExecutionListener@372d7420, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@41334af0, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1d17945d, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6d6a20f7, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@313ac50e, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@6a056d13, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4b11a972]
+2021-06-20 02:35:00,653 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 02:35:00,658 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-06-20 02:35:00,662 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2021-06-20 02:37:32,172 INFO com.cg.osm.service.ProductServiceImpl [main] Product showAllProducts()
+2021-06-20 02:37:32,204 INFO com.cg.osm.service.ProductServiceImpl [main] Product findByProductId()
+2021-06-20 02:37:32,209 INFO com.cg.osm.service.ProductServiceImpl [main] Product deleteProduct()
+2021-06-20 02:37:32,219 INFO com.cg.osm.service.ProductServiceImpl [main] Product findByProductId()
+2021-06-20 02:37:32,221 INFO com.cg.osm.service.ProductServiceImpl [main] Product updateProduct()
+2021-06-20 02:37:32,224 INFO com.cg.osm.service.ProductServiceImpl [main] Product deleteProduct()
+2021-06-20 02:37:32,226 INFO com.cg.osm.service.ProductServiceImpl [main] Product showAllProducts()
+2021-06-20 02:37:32,228 INFO com.cg.osm.service.ProductServiceImpl [main] Product findByCategoryId()
+2021-06-20 02:37:32,231 INFO com.cg.osm.service.ProductServiceImpl [main] Product findByCategoryId()
+2021-06-20 02:37:32,331 INFO com.cg.osm.service.CustomerServiceImpl [main] Customer findCustomerById()
+2021-06-20 02:37:32,335 INFO com.cg.osm.service.CustomerServiceImpl [main] Customer updateCustomer()
+2021-06-20 02:37:32,338 INFO com.cg.osm.service.CustomerServiceImpl [main] Customer showAllCustomers()
+2021-06-20 02:37:32,342 INFO com.cg.osm.service.CustomerServiceImpl [main] Customer findCustomerByName()
+2021-06-20 02:37:32,347 INFO com.cg.osm.service.CustomerServiceImpl [main] Customer findCustomerById()
+2021-06-20 02:37:32,353 INFO com.cg.osm.service.CustomerServiceImpl [main] Customer showAllCustomers()
+2021-06-20 02:37:32,356 INFO com.cg.osm.service.CustomerServiceImpl [main] Customer findCustomerByName()
+2021-06-20 02:37:32,361 INFO com.cg.osm.service.CustomerServiceImpl [main] Customer deleteCustomer()
+2021-06-20 02:37:32,366 INFO com.cg.osm.service.CustomerServiceImpl [main] Customer deleteCustomer()
+2021-06-20 02:37:32,467 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.cg.osm.service.LoginServiceTest], using SpringBootContextLoader
+2021-06-20 02:37:32,472 INFO org.springframework.test.context.support.AbstractContextLoader [main] Could not detect default resource locations for test class [com.cg.osm.service.LoginServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-06-20 02:37:32,473 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.cg.osm.service.LoginServiceTest]: LoginServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-06-20 02:37:32,582 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.cg.osm.OnlineSweetMartApplication for test class com.cg.osm.service.LoginServiceTest
+2021-06-20 02:37:32,694 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-06-20 02:37:32,721 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7f5b9db, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@507d64aa, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@37045b48, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@60b34931, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4aa21f9d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@71c17a57, org.springframework.test.context.transaction.TransactionalTestExecutionListener@640ab13c, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1e0a864d, org.springframework.test.context.event.EventPublishingTestExecutionListener@440e3ce6, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3e67f5f2, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@fd53053, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4527f70a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@707b1a44, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@7132a9dc, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@57435801]
+2021-06-20 02:37:33,021 INFO com.cg.osm.service.LoginServiceTest [main] Starting LoginServiceTest using Java 15.0.2 on DESKTOP-VD908U2 with PID 4616 (started by vostr in C:\Users\vostr\git\OnlineSweetMartForSprint\OnlineSweetMart)
+2021-06-20 02:37:33,022 INFO com.cg.osm.service.LoginServiceTest [main] No active profile set, falling back to default profiles: default
+2021-06-20 02:37:33,027 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2021-06-20 02:37:34,250 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-20 02:37:34,342 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 81 ms. Found 5 JPA repository interfaces.
+2021-06-20 02:37:35,131 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-06-20 02:37:35,285 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-06-20 02:37:35,444 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-20 02:37:35,558 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-20 02:37:35,626 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-20 02:37:35,846 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-06-20 02:37:36,738 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-20 02:37:36,747 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 02:37:38,031 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-20 02:37:47,194 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(2)-127.0.0.1] Application shutdown requested.
+2021-06-20 02:37:47,225 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(2)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 02:37:47,226 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-06-20 02:37:47,228 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2021-06-20 02:37:51,555 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2021-06-20 02:37:51,567 INFO com.cg.osm.OnlineSweetMartApplication [main] Starting OnlineSweetMartApplication using Java 15.0.2 on DESKTOP-VD908U2 with PID 9368 (C:\Users\vostr\git\OnlineSweetMartForSprint\OnlineSweetMart\bin\main started by vostr in C:\Users\vostr\git\OnlineSweetMartForSprint\OnlineSweetMart)
+2021-06-20 02:37:51,568 INFO com.cg.osm.OnlineSweetMartApplication [main] No active profile set, falling back to default profiles: default
+2021-06-20 02:37:52,327 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-20 02:37:52,388 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 55 ms. Found 5 JPA repository interfaces.
+2021-06-20 02:37:52,887 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-06-20 02:37:52,894 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-06-20 02:37:52,895 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-06-20 02:37:52,895 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-20 02:37:52,994 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-06-20 02:37:52,995 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1392 ms
+2021-06-20 02:37:53,102 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-06-20 02:37:53,190 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-06-20 02:37:53,259 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-20 02:37:53,297 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-20 02:37:53,439 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-20 02:37:53,537 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-06-20 02:37:54,422 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-20 02:37:54,429 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 02:37:55,066 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-20 02:37:55,819 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-06-20 02:37:55,839 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-20 02:37:56,261 INFO com.cg.osm.OnlineSweetMartApplication [main] Started OnlineSweetMartApplication in 4.957 seconds (JVM running for 5.679)
+2021-06-20 02:41:36,740 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(2)-127.0.0.1] Application shutdown requested.
+2021-06-20 02:41:36,771 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(2)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 02:41:36,772 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-06-20 02:41:36,774 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2021-06-20 02:41:42,025 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2021-06-20 02:41:42,038 INFO com.cg.osm.OnlineSweetMartApplication [main] Starting OnlineSweetMartApplication using Java 15.0.2 on DESKTOP-VD908U2 with PID 9900 (C:\Users\vostr\git\OnlineSweetMartForSprint\OnlineSweetMart\bin\main started by vostr in C:\Users\vostr\git\OnlineSweetMartForSprint\OnlineSweetMart)
+2021-06-20 02:41:42,039 INFO com.cg.osm.OnlineSweetMartApplication [main] No active profile set, falling back to default profiles: default
+2021-06-20 02:41:42,736 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-20 02:41:42,785 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 43 ms. Found 5 JPA repository interfaces.
+2021-06-20 02:41:43,244 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-06-20 02:41:43,251 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-06-20 02:41:43,251 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-06-20 02:41:43,252 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-20 02:41:43,336 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-06-20 02:41:43,337 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1265 ms
+2021-06-20 02:41:43,439 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-06-20 02:41:43,518 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-06-20 02:41:43,586 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-20 02:41:43,621 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-20 02:41:43,728 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-20 02:41:43,833 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-06-20 02:41:44,663 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-20 02:41:44,670 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 02:41:45,343 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-20 02:41:46,075 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-06-20 02:41:46,093 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-20 02:41:46,488 INFO com.cg.osm.OnlineSweetMartApplication [main] Started OnlineSweetMartApplication in 4.695 seconds (JVM running for 5.469)
+2021-06-20 02:41:51,698 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-20 02:41:51,698 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-06-20 02:41:51,701 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 3 ms
+2021-06-20 02:42:31,394 INFO com.cg.osm.controller.CustomerController [http-nio-8080-exec-8] Customer addCustomer()
+2021-06-20 02:42:31,395 INFO com.cg.osm.service.CustomerServiceImpl [http-nio-8080-exec-8] Customer addCustomer()
+2021-06-20 02:42:52,440 INFO com.cg.osm.controller.CustomerController [http-nio-8080-exec-9] Customer deleteCustomer()
+2021-06-20 02:42:52,441 INFO com.cg.osm.service.CustomerServiceImpl [http-nio-8080-exec-9] Customer deleteCustomer()
+2021-06-20 02:43:49,221 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(2)-127.0.0.1] Application shutdown requested.
+2021-06-20 02:43:49,257 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(2)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 02:43:49,259 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-06-20 02:43:49,261 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2021-06-20 02:43:53,294 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2021-06-20 02:43:53,307 INFO com.cg.osm.OnlineSweetMartApplication [main] Starting OnlineSweetMartApplication using Java 15.0.2 on DESKTOP-VD908U2 with PID 9980 (C:\Users\vostr\git\OnlineSweetMartForSprint\OnlineSweetMart\bin\main started by vostr in C:\Users\vostr\git\OnlineSweetMartForSprint\OnlineSweetMart)
+2021-06-20 02:43:53,307 INFO com.cg.osm.OnlineSweetMartApplication [main] No active profile set, falling back to default profiles: default
+2021-06-20 02:43:54,066 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-20 02:43:54,120 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 46 ms. Found 5 JPA repository interfaces.
+2021-06-20 02:43:54,598 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-06-20 02:43:54,605 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-06-20 02:43:54,605 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-06-20 02:43:54,606 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-20 02:43:54,692 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-06-20 02:43:54,692 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1351 ms
+2021-06-20 02:43:54,797 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-06-20 02:43:54,877 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-06-20 02:43:54,944 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-20 02:43:54,979 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-20 02:43:55,099 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-20 02:43:55,196 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-06-20 02:43:56,016 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-20 02:43:56,023 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 02:43:56,668 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-20 02:43:57,420 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-06-20 02:43:57,440 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-20 02:43:57,895 INFO com.cg.osm.OnlineSweetMartApplication [main] Started OnlineSweetMartApplication in 4.843 seconds (JVM running for 5.575)
+2021-06-20 02:46:23,541 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(2)-127.0.0.1] Application shutdown requested.
+2021-06-20 02:46:23,575 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(2)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 02:46:23,576 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-06-20 02:46:23,578 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2021-06-20 02:46:29,872 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2021-06-20 02:46:29,881 INFO com.cg.osm.OnlineSweetMartApplication [main] Starting OnlineSweetMartApplication using Java 15.0.2 on DESKTOP-VD908U2 with PID 1536 (C:\Users\vostr\git\OnlineSweetMartForSprint\OnlineSweetMart\bin\main started by vostr in C:\Users\vostr\git\OnlineSweetMartForSprint\OnlineSweetMart)
+2021-06-20 02:46:29,881 INFO com.cg.osm.OnlineSweetMartApplication [main] No active profile set, falling back to default profiles: default
+2021-06-20 02:46:30,612 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-20 02:46:30,663 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 44 ms. Found 5 JPA repository interfaces.
+2021-06-20 02:46:31,133 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-06-20 02:46:31,139 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-06-20 02:46:31,140 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-06-20 02:46:31,140 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-20 02:46:31,222 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-06-20 02:46:31,222 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1304 ms
+2021-06-20 02:46:31,330 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-06-20 02:46:31,412 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-06-20 02:46:31,479 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-20 02:46:31,513 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-20 02:46:31,639 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-20 02:46:31,734 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-06-20 02:46:32,555 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-20 02:46:32,562 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 02:46:33,162 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-20 02:46:33,866 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-06-20 02:46:33,884 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-20 02:46:34,284 INFO com.cg.osm.OnlineSweetMartApplication [main] Started OnlineSweetMartApplication in 4.728 seconds (JVM running for 5.602)
+2021-06-20 02:53:43,618 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(2)-127.0.0.1] Application shutdown requested.
+2021-06-20 02:53:43,651 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(2)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 02:53:43,653 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-06-20 02:53:43,655 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2021-06-20 02:53:50,225 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2021-06-20 02:53:50,237 INFO com.cg.osm.OnlineSweetMartApplication [main] Starting OnlineSweetMartApplication using Java 15.0.2 on DESKTOP-VD908U2 with PID 9700 (C:\Users\vostr\git\OnlineSweetMartForSprint\OnlineSweetMart\bin\main started by vostr in C:\Users\vostr\git\OnlineSweetMartForSprint\OnlineSweetMart)
+2021-06-20 02:53:50,238 INFO com.cg.osm.OnlineSweetMartApplication [main] No active profile set, falling back to default profiles: default
+2021-06-20 02:53:50,966 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-20 02:53:51,024 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 51 ms. Found 5 JPA repository interfaces.
+2021-06-20 02:53:51,503 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-06-20 02:53:51,510 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-06-20 02:53:51,510 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-06-20 02:53:51,511 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-20 02:53:51,598 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-06-20 02:53:51,599 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1327 ms
+2021-06-20 02:53:51,709 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-06-20 02:53:51,908 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-06-20 02:53:51,975 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-20 02:53:52,010 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-20 02:53:52,146 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-20 02:53:52,244 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-06-20 02:53:53,079 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-20 02:53:53,086 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 02:53:53,705 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-20 02:53:54,425 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-06-20 02:53:54,443 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-20 02:53:54,851 INFO com.cg.osm.OnlineSweetMartApplication [main] Started OnlineSweetMartApplication in 4.862 seconds (JVM running for 5.62)
+2021-06-20 02:54:40,854 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-20 02:54:40,854 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-06-20 02:54:40,856 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2021-06-20 02:56:06,623 INFO com.cg.osm.controller.CustomerController [http-nio-8080-exec-5] Customer showAllCustomers()
+2021-06-20 02:56:06,624 INFO com.cg.osm.service.CustomerServiceImpl [http-nio-8080-exec-5] Customer showAllCustomers()
+2021-06-20 02:56:06,678 INFO CustomResponseEntityExceptionHandler [http-nio-8080-exec-5] Inside ResponseEntityExceptionHandler() of CustomerNotFoundException
+2021-06-20 02:56:07,211 INFO com.cg.osm.controller.CustomerController [http-nio-8080-exec-6] Customer showAllCustomers()
+2021-06-20 02:56:07,211 INFO com.cg.osm.service.CustomerServiceImpl [http-nio-8080-exec-6] Customer showAllCustomers()
+2021-06-20 02:56:07,213 INFO CustomResponseEntityExceptionHandler [http-nio-8080-exec-6] Inside ResponseEntityExceptionHandler() of CustomerNotFoundException
+2021-06-20 03:02:27,298 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(2)-127.0.0.1] Application shutdown requested.
+2021-06-20 03:02:27,336 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(2)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 03:02:27,339 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-06-20 03:02:27,341 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2021-06-20 03:02:34,603 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2021-06-20 03:02:34,617 INFO com.cg.osm.OnlineSweetMartApplication [main] Starting OnlineSweetMartApplication using Java 15.0.2 on DESKTOP-VD908U2 with PID 11052 (C:\Users\vostr\git\OnlineSweetMartForSprint\OnlineSweetMart\bin\main started by vostr in C:\Users\vostr\git\OnlineSweetMartForSprint\OnlineSweetMart)
+2021-06-20 03:02:34,618 INFO com.cg.osm.OnlineSweetMartApplication [main] No active profile set, falling back to default profiles: default
+2021-06-20 03:02:35,449 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-20 03:02:35,509 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 52 ms. Found 5 JPA repository interfaces.
+2021-06-20 03:02:36,044 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-06-20 03:02:36,052 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-06-20 03:02:36,052 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-06-20 03:02:36,053 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-20 03:02:36,158 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-06-20 03:02:36,159 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1501 ms
+2021-06-20 03:02:36,284 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-06-20 03:02:36,377 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-06-20 03:02:36,455 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-20 03:02:36,499 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-20 03:02:36,632 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-20 03:02:36,752 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-06-20 03:02:37,756 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-20 03:02:37,764 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 03:02:38,500 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-20 03:02:39,377 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-06-20 03:02:39,398 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-20 03:02:39,875 INFO com.cg.osm.OnlineSweetMartApplication [main] Started OnlineSweetMartApplication in 5.539 seconds (JVM running for 6.314)
+2021-06-20 03:03:02,029 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-20 03:03:02,029 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-06-20 03:03:02,031 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2021-06-20 03:04:02,025 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(2)-127.0.0.1] Application shutdown requested.
+2021-06-20 03:04:02,063 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(2)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 03:04:02,065 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-06-20 03:04:02,068 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2021-06-20 03:04:06,421 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2021-06-20 03:04:06,437 INFO com.cg.osm.OnlineSweetMartApplication [main] Starting OnlineSweetMartApplication using Java 15.0.2 on DESKTOP-VD908U2 with PID 10916 (C:\Users\vostr\git\OnlineSweetMartForSprint\OnlineSweetMart\bin\main started by vostr in C:\Users\vostr\git\OnlineSweetMartForSprint\OnlineSweetMart)
+2021-06-20 03:04:06,438 INFO com.cg.osm.OnlineSweetMartApplication [main] No active profile set, falling back to default profiles: default
+2021-06-20 03:04:07,311 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-20 03:04:07,374 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 54 ms. Found 5 JPA repository interfaces.
+2021-06-20 03:04:07,939 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-06-20 03:04:07,948 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-06-20 03:04:07,949 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-06-20 03:04:07,949 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-20 03:04:08,060 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-06-20 03:04:08,060 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1575 ms
+2021-06-20 03:04:08,190 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-06-20 03:04:08,292 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-06-20 03:04:08,376 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-20 03:04:08,426 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-20 03:04:08,573 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-20 03:04:08,685 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-06-20 03:04:09,680 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-20 03:04:09,688 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 03:04:10,424 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-20 03:04:11,301 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-06-20 03:04:11,322 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-20 03:04:11,786 INFO com.cg.osm.OnlineSweetMartApplication [main] Started OnlineSweetMartApplication in 5.67 seconds (JVM running for 6.487)
+2021-06-20 03:07:04,994 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(2)-127.0.0.1] Application shutdown requested.
+2021-06-20 03:07:05,039 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(2)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 03:07:05,041 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-06-20 03:07:05,044 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2021-06-20 03:07:11,626 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2021-06-20 03:07:11,643 INFO com.cg.osm.OnlineSweetMartApplication [main] Starting OnlineSweetMartApplication using Java 15.0.2 on DESKTOP-VD908U2 with PID 7008 (C:\Users\vostr\git\OnlineSweetMartForSprint\OnlineSweetMart\bin\main started by vostr in C:\Users\vostr\git\OnlineSweetMartForSprint\OnlineSweetMart)
+2021-06-20 03:07:11,643 INFO com.cg.osm.OnlineSweetMartApplication [main] No active profile set, falling back to default profiles: default
+2021-06-20 03:07:12,517 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-20 03:07:12,587 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 61 ms. Found 5 JPA repository interfaces.
+2021-06-20 03:07:13,172 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-06-20 03:07:13,182 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-06-20 03:07:13,183 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-06-20 03:07:13,183 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-20 03:07:13,291 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-06-20 03:07:13,292 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1596 ms
+2021-06-20 03:07:13,416 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-06-20 03:07:13,512 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-06-20 03:07:13,592 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-20 03:07:13,641 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-20 03:07:13,787 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-20 03:07:13,895 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-06-20 03:07:14,892 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-20 03:07:14,900 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 03:07:15,664 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-20 03:07:16,538 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-06-20 03:07:16,558 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-20 03:07:17,019 INFO com.cg.osm.OnlineSweetMartApplication [main] Started OnlineSweetMartApplication in 5.685 seconds (JVM running for 6.515)
+2021-06-20 03:07:41,568 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-20 03:07:41,569 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-06-20 03:07:41,570 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-06-20 03:07:41,689 INFO com.cg.osm.controller.CustomerController [http-nio-8080-exec-1] Customer addCustomer()
+2021-06-20 03:07:41,689 INFO com.cg.osm.service.CustomerServiceImpl [http-nio-8080-exec-1] Customer addCustomer()
+2021-06-20 03:08:34,882 INFO com.cg.osm.service.CustomerServiceImpl [http-nio-8080-exec-2] Customer findCustomerById()
+2021-06-20 03:08:34,902 INFO com.cg.osm.controller.CustomerController [http-nio-8080-exec-2] Customer findCustomerById()
+2021-06-20 03:08:41,449 INFO com.cg.osm.service.CustomerServiceImpl [http-nio-8080-exec-3] Customer findCustomerById()
+2021-06-20 03:08:41,454 INFO CustomResponseEntityExceptionHandler [http-nio-8080-exec-3] Inside ResponseEntityExceptionHandler() of CustomerNotFoundException
+2021-06-20 03:10:05,666 INFO com.cg.osm.controller.CustomerController [http-nio-8080-exec-5] Customer deleteCustomer()
+2021-06-20 03:10:05,667 INFO com.cg.osm.service.CustomerServiceImpl [http-nio-8080-exec-5] Customer deleteCustomer()
+2021-06-20 03:10:05,679 INFO CustomResponseEntityExceptionHandler [http-nio-8080-exec-5] Inside ResponseEntityExceptionHandler() of CustomerNotFoundException
+2021-06-20 03:10:56,498 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(2)-127.0.0.1] Application shutdown requested.
+2021-06-20 03:10:56,537 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(2)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 03:10:56,539 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-06-20 03:10:56,541 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2021-06-20 03:11:02,816 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2021-06-20 03:11:02,828 INFO com.cg.osm.OnlineSweetMartApplication [main] Starting OnlineSweetMartApplication using Java 15.0.2 on DESKTOP-VD908U2 with PID 6788 (C:\Users\vostr\git\OnlineSweetMartForSprint\OnlineSweetMart\bin\main started by vostr in C:\Users\vostr\git\OnlineSweetMartForSprint\OnlineSweetMart)
+2021-06-20 03:11:02,829 INFO com.cg.osm.OnlineSweetMartApplication [main] No active profile set, falling back to default profiles: default
+2021-06-20 03:11:03,667 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-20 03:11:03,734 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 58 ms. Found 5 JPA repository interfaces.
+2021-06-20 03:11:04,272 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-06-20 03:11:04,280 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-06-20 03:11:04,280 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-06-20 03:11:04,281 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-20 03:11:04,384 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-06-20 03:11:04,384 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1515 ms
+2021-06-20 03:11:04,506 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-06-20 03:11:04,724 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-06-20 03:11:04,803 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-20 03:11:04,848 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-20 03:11:04,972 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-20 03:11:05,091 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-06-20 03:11:06,079 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-20 03:11:06,087 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 03:11:06,776 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-20 03:11:07,559 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-06-20 03:11:07,581 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-20 03:11:08,034 INFO com.cg.osm.OnlineSweetMartApplication [main] Started OnlineSweetMartApplication in 5.538 seconds (JVM running for 6.385)
+2021-06-20 03:11:15,855 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-20 03:11:15,856 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-06-20 03:11:15,858 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2021-06-20 03:11:15,888 INFO com.cg.osm.controller.CustomerController [http-nio-8080-exec-1] Customer deleteCustomer()
+2021-06-20 03:11:15,888 INFO com.cg.osm.service.CustomerServiceImpl [http-nio-8080-exec-1] Customer deleteCustomer()
+2021-06-20 03:11:27,555 INFO com.cg.osm.controller.CustomerController [http-nio-8080-exec-8] Customer deleteCustomer()
+2021-06-20 03:11:27,556 INFO com.cg.osm.service.CustomerServiceImpl [http-nio-8080-exec-8] Customer deleteCustomer()
+2021-06-20 03:11:42,227 INFO com.cg.osm.service.CustomerServiceImpl [http-nio-8080-exec-9] Customer findCustomerById()
+2021-06-20 03:11:42,257 INFO com.cg.osm.controller.CustomerController [http-nio-8080-exec-9] Customer findCustomerById()
+2021-06-20 03:11:47,547 INFO com.cg.osm.service.CustomerServiceImpl [http-nio-8080-exec-10] Customer findCustomerById()
+2021-06-20 03:14:09,635 INFO com.cg.osm.controller.LoginController [http-nio-8080-exec-4] User addUser()
+2021-06-20 03:14:09,641 INFO com.cg.osm.service.LoginServiceImpl [http-nio-8080-exec-4] User addUser()
+2021-06-20 03:14:18,694 INFO com.cg.osm.controller.LoginController [http-nio-8080-exec-3] User addUser()
+2021-06-20 03:14:18,696 INFO com.cg.osm.service.LoginServiceImpl [http-nio-8080-exec-3] User addUser()
+2021-06-20 03:14:21,491 INFO com.cg.osm.controller.LoginController [http-nio-8080-exec-5] User addUser()
+2021-06-20 03:14:21,492 INFO com.cg.osm.service.LoginServiceImpl [http-nio-8080-exec-5] User addUser()
+2021-06-20 03:15:19,890 INFO com.cg.osm.controller.LoginController [http-nio-8080-exec-8] User addUser()
+2021-06-20 03:15:19,892 INFO com.cg.osm.service.LoginServiceImpl [http-nio-8080-exec-8] User addUser()
+2021-06-20 03:17:31,462 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(2)-127.0.0.1] Application shutdown requested.
+2021-06-20 03:17:31,499 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(2)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 03:17:31,501 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-06-20 03:17:31,503 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2021-06-20 03:17:37,904 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2021-06-20 03:17:37,915 INFO com.cg.osm.OnlineSweetMartApplication [main] Starting OnlineSweetMartApplication using Java 15.0.2 on DESKTOP-VD908U2 with PID 564 (C:\Users\vostr\git\OnlineSweetMartForSprint\OnlineSweetMart\bin\main started by vostr in C:\Users\vostr\git\OnlineSweetMartForSprint\OnlineSweetMart)
+2021-06-20 03:17:37,915 INFO com.cg.osm.OnlineSweetMartApplication [main] No active profile set, falling back to default profiles: default
+2021-06-20 03:17:38,736 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-20 03:17:38,804 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 59 ms. Found 5 JPA repository interfaces.
+2021-06-20 03:17:39,308 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-06-20 03:17:39,315 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-06-20 03:17:39,316 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-06-20 03:17:39,316 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-20 03:17:39,407 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-06-20 03:17:39,408 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1451 ms
+2021-06-20 03:17:39,508 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-06-20 03:17:39,597 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-06-20 03:17:39,667 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-20 03:17:39,703 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-20 03:17:39,850 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-20 03:17:39,952 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-06-20 03:17:40,829 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-20 03:17:40,836 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 03:17:41,496 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-20 03:17:42,273 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-06-20 03:17:42,292 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-20 03:17:42,725 INFO com.cg.osm.OnlineSweetMartApplication [main] Started OnlineSweetMartApplication in 5.074 seconds (JVM running for 5.813)
+2021-06-20 03:18:04,380 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-20 03:18:04,381 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-06-20 03:18:04,384 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2021-06-20 03:18:04,471 INFO com.cg.osm.controller.LoginController [http-nio-8080-exec-1] User addUser()
+2021-06-20 03:18:04,481 INFO com.cg.osm.service.LoginServiceImpl [http-nio-8080-exec-1] User addUser()
+2021-06-20 03:18:04,516 INFO com.cg.osm.controller.LoginController [http-nio-8080-exec-2] User addUser()
+2021-06-20 03:18:04,517 INFO com.cg.osm.service.LoginServiceImpl [http-nio-8080-exec-2] User addUser()
+2021-06-20 03:18:04,680 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8080-exec-1] SQL Error: 0, SQLState: 23505
+2021-06-20 03:18:04,680 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8080-exec-1] ERROR: duplicate key value violates unique constraint "users_pkey"
+  Detail: Key (user_id)=(sd) already exists.
+2021-06-20 03:18:19,381 INFO com.cg.osm.controller.LoginController [http-nio-8080-exec-3] User addUser()
+2021-06-20 03:18:19,383 INFO com.cg.osm.service.LoginServiceImpl [http-nio-8080-exec-3] User addUser()
+2021-06-20 03:18:32,323 INFO com.cg.osm.controller.LoginController [http-nio-8080-exec-4] User removeUser()
+2021-06-20 03:18:32,326 INFO com.cg.osm.service.LoginServiceImpl [http-nio-8080-exec-4] User removeUser()
+2021-06-20 03:18:54,079 INFO com.cg.osm.controller.LoginController [http-nio-8080-exec-5] Customer showAllUsers()
+2021-06-20 03:18:54,080 INFO com.cg.osm.service.LoginServiceImpl [http-nio-8080-exec-5] Customer showAllCustomers()
+2021-06-20 03:25:09,497 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(2)-127.0.0.1] Application shutdown requested.
+2021-06-20 03:25:09,534 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(2)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 03:25:09,536 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-06-20 03:25:09,539 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2021-06-20 03:25:15,060 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2021-06-20 03:25:15,073 INFO com.cg.osm.OnlineSweetMartApplication [main] Starting OnlineSweetMartApplication using Java 15.0.2 on DESKTOP-VD908U2 with PID 11332 (C:\Users\vostr\git\OnlineSweetMartForSprint\OnlineSweetMart\bin\main started by vostr in C:\Users\vostr\git\OnlineSweetMartForSprint\OnlineSweetMart)
+2021-06-20 03:25:15,073 INFO com.cg.osm.OnlineSweetMartApplication [main] No active profile set, falling back to default profiles: default
+2021-06-20 03:25:15,905 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-20 03:25:15,966 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 53 ms. Found 5 JPA repository interfaces.
+2021-06-20 03:25:16,511 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-06-20 03:25:16,519 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-06-20 03:25:16,520 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-06-20 03:25:16,520 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-20 03:25:16,619 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-06-20 03:25:16,620 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1506 ms
+2021-06-20 03:25:16,743 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-06-20 03:25:16,834 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-06-20 03:25:16,910 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-20 03:25:16,970 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-20 03:25:17,120 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-20 03:25:17,251 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-06-20 03:25:18,239 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-20 03:25:18,246 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 03:25:18,945 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-20 03:25:19,776 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-06-20 03:25:19,794 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-20 03:25:20,243 INFO com.cg.osm.OnlineSweetMartApplication [main] Started OnlineSweetMartApplication in 5.46 seconds (JVM running for 6.375)
+2021-06-20 03:28:56,270 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(2)-127.0.0.1] Application shutdown requested.
+2021-06-20 03:28:56,305 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(2)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 03:28:56,307 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-06-20 03:28:56,309 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2021-06-20 03:29:02,457 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2021-06-20 03:29:02,473 INFO com.cg.osm.OnlineSweetMartApplication [main] Starting OnlineSweetMartApplication using Java 15.0.2 on DESKTOP-VD908U2 with PID 13240 (C:\Users\vostr\git\OnlineSweetMartForSprint\OnlineSweetMart\bin\main started by vostr in C:\Users\vostr\git\OnlineSweetMartForSprint\OnlineSweetMart)
+2021-06-20 03:29:02,474 INFO com.cg.osm.OnlineSweetMartApplication [main] No active profile set, falling back to default profiles: default
+2021-06-20 03:29:03,263 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-20 03:29:03,318 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 47 ms. Found 5 JPA repository interfaces.
+2021-06-20 03:29:03,801 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-06-20 03:29:03,808 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-06-20 03:29:03,808 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-06-20 03:29:03,809 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-20 03:29:03,902 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-06-20 03:29:03,903 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1386 ms
+2021-06-20 03:29:04,011 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-06-20 03:29:04,218 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-06-20 03:29:04,285 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-20 03:29:04,321 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-20 03:29:04,465 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-20 03:29:04,556 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-06-20 03:29:05,406 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-20 03:29:05,413 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 03:29:06,047 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-20 03:29:06,776 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-06-20 03:29:06,795 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-20 03:29:07,223 INFO com.cg.osm.OnlineSweetMartApplication [main] Started OnlineSweetMartApplication in 5.052 seconds (JVM running for 5.908)
+2021-06-20 03:31:04,965 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(2)-127.0.0.1] Application shutdown requested.
+2021-06-20 03:31:05,000 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(2)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 03:31:05,001 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-06-20 03:31:05,004 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2021-06-20 03:31:10,908 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2021-06-20 03:31:10,920 INFO com.cg.osm.OnlineSweetMartApplication [main] Starting OnlineSweetMartApplication using Java 15.0.2 on DESKTOP-VD908U2 with PID 13208 (C:\Users\vostr\git\OnlineSweetMartForSprint\OnlineSweetMart\bin\main started by vostr in C:\Users\vostr\git\OnlineSweetMartForSprint\OnlineSweetMart)
+2021-06-20 03:31:10,921 INFO com.cg.osm.OnlineSweetMartApplication [main] No active profile set, falling back to default profiles: default
+2021-06-20 03:31:11,749 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-20 03:31:11,817 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 59 ms. Found 5 JPA repository interfaces.
+2021-06-20 03:31:12,332 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-06-20 03:31:12,340 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-06-20 03:31:12,340 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-06-20 03:31:12,340 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-20 03:31:12,440 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-06-20 03:31:12,441 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1474 ms
+2021-06-20 03:31:12,554 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-06-20 03:31:12,647 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-06-20 03:31:12,738 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-20 03:31:12,789 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-20 03:31:12,941 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-20 03:31:13,042 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-06-20 03:31:13,931 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-20 03:31:13,939 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 03:31:14,590 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-20 03:31:15,386 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-06-20 03:31:15,406 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-20 03:31:15,859 INFO com.cg.osm.OnlineSweetMartApplication [main] Started OnlineSweetMartApplication in 5.221 seconds (JVM running for 6.038)
+2021-06-20 03:33:19,117 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(2)-127.0.0.1] Application shutdown requested.
+2021-06-20 03:33:19,153 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(2)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 03:33:19,155 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-06-20 03:33:19,159 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2021-06-20 03:33:23,443 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2021-06-20 03:33:23,456 INFO com.cg.osm.OnlineSweetMartApplication [main] Starting OnlineSweetMartApplication using Java 15.0.2 on DESKTOP-VD908U2 with PID 10972 (C:\Users\vostr\git\OnlineSweetMartForSprint\OnlineSweetMart\bin\main started by vostr in C:\Users\vostr\git\OnlineSweetMartForSprint\OnlineSweetMart)
+2021-06-20 03:33:23,456 INFO com.cg.osm.OnlineSweetMartApplication [main] No active profile set, falling back to default profiles: default
+2021-06-20 03:33:24,273 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-20 03:33:24,340 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 58 ms. Found 5 JPA repository interfaces.
+2021-06-20 03:33:24,867 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-06-20 03:33:24,875 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-06-20 03:33:24,875 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-06-20 03:33:24,875 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-20 03:33:24,975 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-06-20 03:33:24,975 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1477 ms
+2021-06-20 03:33:25,090 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-06-20 03:33:25,193 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-06-20 03:33:25,266 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-20 03:33:25,307 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-20 03:33:25,454 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-20 03:33:25,569 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-06-20 03:33:26,463 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-20 03:33:26,470 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 03:33:27,139 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-20 03:33:27,931 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-06-20 03:33:27,952 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-20 03:33:28,399 INFO com.cg.osm.OnlineSweetMartApplication [main] Started OnlineSweetMartApplication in 5.215 seconds (JVM running for 6.005)
+2021-06-20 03:48:15,552 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(2)-127.0.0.1] Application shutdown requested.
+2021-06-20 03:48:15,596 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(2)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 03:48:15,598 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-06-20 03:48:15,600 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2021-06-20 03:48:20,884 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2021-06-20 03:48:20,894 INFO com.cg.osm.OnlineSweetMartApplication [main] Starting OnlineSweetMartApplication using Java 15.0.2 on DESKTOP-VD908U2 with PID 9920 (C:\Users\vostr\git\OnlineSweetMartForSprint\OnlineSweetMart\bin\main started by vostr in C:\Users\vostr\git\OnlineSweetMartForSprint\OnlineSweetMart)
+2021-06-20 03:48:20,894 INFO com.cg.osm.OnlineSweetMartApplication [main] No active profile set, falling back to default profiles: default
+2021-06-20 03:48:21,723 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-20 03:48:21,791 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 58 ms. Found 5 JPA repository interfaces.
+2021-06-20 03:48:22,334 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-06-20 03:48:22,342 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-06-20 03:48:22,342 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-06-20 03:48:22,342 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-20 03:48:22,442 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-06-20 03:48:22,442 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1508 ms
+2021-06-20 03:48:22,562 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-06-20 03:48:22,774 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-06-20 03:48:22,851 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-20 03:48:22,895 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-20 03:48:23,027 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-20 03:48:23,136 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-06-20 03:48:24,110 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-20 03:48:24,118 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 03:48:24,825 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-20 03:48:25,649 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-06-20 03:48:25,668 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-20 03:48:26,110 INFO com.cg.osm.OnlineSweetMartApplication [main] Started OnlineSweetMartApplication in 5.497 seconds (JVM running for 6.276)
+2021-06-20 03:48:32,272 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-20 03:48:32,272 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-06-20 03:48:32,274 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2021-06-20 03:48:50,582 INFO com.cg.osm.controller.LoginController [http-nio-8080-exec-7] User removeUser()
+2021-06-20 03:48:50,598 INFO com.cg.osm.service.LoginServiceImpl [http-nio-8080-exec-7] User removeUser()
+2021-06-20 03:48:50,625 INFO CustomResponseEntityExceptionHandler [http-nio-8080-exec-7] Inside ResponseEntityExceptionHandler() of UserNotFoundException
+2021-06-20 03:51:49,068 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(2)-127.0.0.1] Application shutdown requested.
+2021-06-20 03:51:49,107 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(2)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 03:51:49,108 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-06-20 03:51:49,111 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2021-06-20 03:51:53,192 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2021-06-20 03:51:53,208 INFO com.cg.osm.OnlineSweetMartApplication [main] Starting OnlineSweetMartApplication using Java 15.0.2 on DESKTOP-VD908U2 with PID 5796 (C:\Users\vostr\git\OnlineSweetMartForSprint\OnlineSweetMart\bin\main started by vostr in C:\Users\vostr\git\OnlineSweetMartForSprint\OnlineSweetMart)
+2021-06-20 03:51:53,208 INFO com.cg.osm.OnlineSweetMartApplication [main] No active profile set, falling back to default profiles: default
+2021-06-20 03:51:54,064 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-20 03:51:54,134 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 61 ms. Found 5 JPA repository interfaces.
+2021-06-20 03:51:54,698 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-06-20 03:51:54,707 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-06-20 03:51:54,707 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-06-20 03:51:54,708 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-20 03:51:54,817 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-06-20 03:51:54,817 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1563 ms
+2021-06-20 03:51:54,941 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-06-20 03:51:55,045 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-06-20 03:51:55,125 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-20 03:51:55,174 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-20 03:51:55,323 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-20 03:51:55,432 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-06-20 03:51:56,419 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-20 03:51:56,427 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 03:51:57,157 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-20 03:51:58,019 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]

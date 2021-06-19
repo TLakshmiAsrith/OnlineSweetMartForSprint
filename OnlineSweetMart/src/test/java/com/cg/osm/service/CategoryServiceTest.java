@@ -23,7 +23,7 @@ import com.cg.osm.error.CategoryNotFoundException;
 import com.cg.osm.repository.CategoryRepository;
 
 @ExtendWith(MockitoExtension.class)
-public class CategoryServiceTest {
+ class CategoryServiceTest {
 
 	@InjectMocks
 	private CategoryServiceImpl cservice;
@@ -31,7 +31,7 @@ public class CategoryServiceTest {
 	private CategoryRepository crepository;
 
 	@Test
-	public void addCategoryTest() {
+	 void addCategoryTest() {
 		Category c = new Category(1, "type1");
 
 		when(crepository.save(c)).thenReturn(c);
@@ -85,11 +85,11 @@ public class CategoryServiceTest {
 	}
 
 	@Test
-	public void updateCategoryTest() {
-		Category c = new Category(1, "type1");
+	 void updateCategoryTest() {
+		Category cate = new Category(1, "type1");
 
-		c.setName("sweettype1");
-		assertThat(crepository.findById(c.getCategoryId())).isNotEqualTo(c);
+		cate.setName("sweettype1");
+		assertThat(crepository.findById(cate.getCategoryId())).isNotEqualTo(cate);
 
 	}
 

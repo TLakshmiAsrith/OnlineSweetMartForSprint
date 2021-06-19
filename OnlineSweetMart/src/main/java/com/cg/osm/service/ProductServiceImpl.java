@@ -77,7 +77,7 @@ public class ProductServiceImpl implements ProductService {
 	public List<Product> showAllProducts() throws ProductNotFoundException {
 		logger.info("Product showAllProducts()");
 		List<Product> productList = productRepository.findAll();
-		if (productList.size() == 0) {
+		if (productList.isEmpty()) {
 			throw new ProductNotFoundException("No Products");
 		} else {
 			return productList;

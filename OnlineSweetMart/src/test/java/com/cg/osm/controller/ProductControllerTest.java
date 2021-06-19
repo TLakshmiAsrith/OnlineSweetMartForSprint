@@ -30,7 +30,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 @ExtendWith(SpringExtension.class)
 @WebMvcTest(controllers = ProductController.class )
 
-public class ProductControllerTest {
+ class ProductControllerTest {
 
 	@Autowired
 	MockMvc mockmvc;

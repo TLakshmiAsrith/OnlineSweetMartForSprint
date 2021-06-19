@@ -25,7 +25,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 @ExtendWith(SpringExtension.class)
 @WebMvcTest(controllers = CustomerController.class)
-public class CustomerControllerTest {
+ class CustomerControllerTest {
 
 	@Autowired
 	MockMvc mockmvc;

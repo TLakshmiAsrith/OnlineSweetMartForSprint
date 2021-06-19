@@ -16,7 +16,7 @@ import com.cg.osm.entity.User;
 import com.cg.osm.repository.LoginRepository;
 
 @SpringBootTest
-public class LoginServiceTest {
+ class LoginServiceTest {
 
 	@InjectMocks
 	LoginServiceImpl loginServiceImpl;
@@ -24,7 +24,7 @@ public class LoginServiceTest {
 	LoginRepository loginRepo;
 
 	@Test
-	public void addUserMockTest() {
+	 void addUserMockTest() {
 		User user = new User();
 		user.setUserId("Sandeep");
 		user.setPassword("password");
@@ -35,7 +35,7 @@ public class LoginServiceTest {
 	}
 
 	@Test
-	public void removeUserMockTest() {
+	 void removeUserMockTest() {
 		User user = new User();
 		user.setUserId("Sandeep");
 		user.setPassword("password");
@@ -47,7 +47,7 @@ public class LoginServiceTest {
 	}
 
 	@Test
-	public void validateUserMockTest() {
+	 void validateUserMockTest() {
 		User user = new User();
 		user.setUserId("Sandeep");
 		user.setPassword("password");
@@ -61,7 +61,7 @@ public class LoginServiceTest {
 	}
 
 	@Test
-	public void showAllUsersMockTest() {
+	 void showAllUsersMockTest() {
 		User user1 = new User();
 		user1.setUserId("Sandeep");
 		user1.setPassword("password");

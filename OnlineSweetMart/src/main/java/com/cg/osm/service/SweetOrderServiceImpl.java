@@ -59,7 +59,7 @@ public class SweetOrderServiceImpl implements SweetOrderService {
 	public List<SweetOrder> ShowAllSweetOrder() throws SweetOrderNotFoundException {
 		logger.info("SweetOrder ShowAllSweetOrder()");
 		List<SweetOrder> sweetorderList = sweetOrderRepository.findAll();
-		if (sweetorderList.size() == 0) {
+		if (sweetorderList.isEmpty()) {
 			throw new SweetOrderNotFoundException("No orders found");
 		} else {
 			return sweetorderList;
@@ -94,7 +94,7 @@ public class SweetOrderServiceImpl implements SweetOrderService {
 		boolean customerfound = customerRepository.existsById(customerId);
 		if (customerfound) {
 			List<SweetOrder> orderList = sweetOrderRepository.findOrdersByCustomerId(customerId);
-			if (orderList.size() == 0) {
+			if (orderList.isEmpty()) {
 				throw new SweetOrderNotFoundException("No sweet orders by the given customer");
 			} else {
 				return orderList;

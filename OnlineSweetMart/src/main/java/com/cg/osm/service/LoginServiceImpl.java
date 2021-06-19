@@ -27,14 +27,10 @@ public class LoginServiceImpl implements LoginService {
 
 	@Override
 	@Transactional
-	public User addUser(User user) throws UserNotFoundException {
+	public User addUser(User user) {
 		logger.info("User addUser()");
-		if (user == null)
-			throw new UserNotFoundException("NotFound");
-		else {
-			loginRepo.save(user);
-			return user;
-		}
+		loginRepo.save(user);
+		return loginRepo.save(user);
 	}
 
 	@Override
@@ -67,7 +63,7 @@ public class LoginServiceImpl implements LoginService {
 	public List<User> showAllUsers() throws UserNotFoundException {
 		logger.info("Customer showAllCustomers()");
 		List<User> userList = loginRepo.findAll();
-		if (userList.size() == 0) {
+		if (userList.isEmpty()) {
 			throw new UserNotFoundException("No such users found");
 		} else {
 			return userList;

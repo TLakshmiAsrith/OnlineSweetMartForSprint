@@ -53,7 +53,7 @@ public class CategoryServiceImpl implements CategoryService {
 		logger.info("Category showAllCategories()");
 
 		List<Category> categoryList = categoryRepository.findAll();
-		if (categoryList.size() == 0)
+		if (categoryList.isEmpty())
 			throw new CategoryNotFoundException("No Categories found");
 		else
 			return categoryList;

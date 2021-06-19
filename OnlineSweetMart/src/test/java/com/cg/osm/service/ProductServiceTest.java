@@ -28,7 +28,7 @@ import com.cg.osm.repository.CategoryRepository;
 import com.cg.osm.repository.ProductRepository;
 
 @ExtendWith(MockitoExtension.class)
-public class ProductServiceTest {
+ class ProductServiceTest {
 
 	@InjectMocks
 	private ProductServiceImpl service;
@@ -40,7 +40,7 @@ public class ProductServiceTest {
 	private CategoryRepository crepo;
 
 	@Test
-	public void addProductTest() throws Exception {
+	 void addProductTest() throws Exception {
 		Category c = new Category(1, "type1");
 		LocalDate l = LocalDate.of(2021, 12, 15);
 		Product p = new Product(1, "prod1", 200.0, l, c);
@@ -51,7 +51,7 @@ public class ProductServiceTest {
 	}
 
 	@Test
-	public void showAllProductsTest() throws ProductNotFoundException {
+	 void showAllProductsTest() throws ProductNotFoundException {
 		Category c = new Category(1, "type1");
 		LocalDate l = LocalDate.of(2021, 11, 15);
 		Product p = new Product(2, "prod2", 100.0, l, c);
@@ -72,7 +72,7 @@ public class ProductServiceTest {
 	}
 
 	@Test
-	public void findByProductIdTest() throws ProductNotFoundException {
+	 void findByProductIdTest() throws ProductNotFoundException {
 		Category c = new Category(1, "type1");
 		LocalDate l = LocalDate.of(2021, 12, 15);
 		Product p = new Product(1, "prod3", 200.0, l, c);
@@ -95,7 +95,7 @@ public class ProductServiceTest {
 	}
 
 	@Test
-	public void findByCategoryIdTest() throws CategoryNotFoundException, ProductNotFoundException {
+	 void findByCategoryIdTest() throws CategoryNotFoundException, ProductNotFoundException {
 		Category c = new Category(1, "type1");
 		LocalDate l = LocalDate.of(2021, 11, 15);
 		Product p = new Product(4, "prod4", 100.0, l, c);
@@ -117,7 +117,7 @@ public class ProductServiceTest {
 	}
 
 	@Test
-	public void deleteProductTest() throws ProductNotFoundException {
+	 void deleteProductTest() throws ProductNotFoundException {
 		Category c = new Category(1, "type1");
 		LocalDate l = LocalDate.of(2021, 12, 15);
 		Product p = new Product(1, "prod2", 200.0, l, c);
@@ -139,7 +139,7 @@ public class ProductServiceTest {
 	}
 
 	@Test
-	public void updateProductTest() throws ProductNotFoundException {
+	 void updateProductTest() throws ProductNotFoundException {
 		Category c = new Category(1, "type1");
 		LocalDate l = LocalDate.of(2021, 12, 15);
 		Product p = new Product(5, "prod5", 2000.0, l, c);

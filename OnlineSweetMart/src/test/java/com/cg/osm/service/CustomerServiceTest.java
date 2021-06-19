@@ -24,7 +24,7 @@ import com.cg.osm.repository.CustomerRepository;
 
 //@SpringBootTest
 @ExtendWith(MockitoExtension.class)
-public class CustomerServiceTest {
+ class CustomerServiceTest {
 
 	@Mock
 	private CustomerRepository customerrepository;
@@ -128,7 +128,7 @@ public class CustomerServiceTest {
 	}
 
 	@Test
-	public void updateCustomer() {
+	 void updateCustomer() {
 		Customer cust1 = new Customer(123, "Prashanth", "aripiralap@gmail.com",
 				new Address("Hyderabad", "9885394447", "500054"), null);
 		cust1.setCustomerName("Ravi");

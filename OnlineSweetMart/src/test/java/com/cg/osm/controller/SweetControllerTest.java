@@ -26,7 +26,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 @ExtendWith(SpringExtension.class)
 @WebMvcTest(controllers = SweetController.class)
-public class SweetControllerTest {
+ class SweetControllerTest {
 
 	@Autowired
 	MockMvc mockmvc;

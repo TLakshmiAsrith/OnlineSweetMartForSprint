@@ -61,7 +61,7 @@ public class CustomerServiceImpl implements CustomerService {
 	public List<Customer> showAllCustomers() throws CustomerNotFoundException {
 		logger.info("Customer showAllCustomers()");
 		List<Customer> customerList = customerRepository.findAll();
-		if (customerList.size() == 0) {
+		if (customerList.isEmpty()) {
 			throw new CustomerNotFoundException("No such customers found");
 		} else {
 			return customerList;
