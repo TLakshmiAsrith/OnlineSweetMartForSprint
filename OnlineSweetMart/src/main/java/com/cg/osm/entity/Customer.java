@@ -24,10 +24,10 @@ import com.fasterxml.jackson.annotation.JsonManagedReference;
 public class Customer {
 
 	@Id
-	private Integer userId;
+	private Integer customerId;
 	@Column(name = "Name")
-	@NotEmpty(message = "UserName cannot be empty")
-	private String username;
+	@NotEmpty(message = "CustomerName cannot be empty")
+	private String customerName;
 	@Column(name = "EmailId", unique = true)
 	@Email(message = "Please check your EmailId")
 	@NotEmpty(message = "Email cannot be empty")
@@ -47,17 +47,34 @@ public class Customer {
 	public Customer() {
 	}
 
-	public Customer(Integer userId, @NotEmpty(message = "UserName cannot be empty") String username,
+		public Customer(Integer customerId, @NotEmpty(message = "CustomerName cannot be empty") String customerName,
 			@Email(message = "Please check your EmailId") @NotEmpty(message = "Email cannot be empty") String email,
 			@Valid Address address, List<SweetOrder> sweetOrders) {
-		this.userId = userId;
-		this.username = username;
+		super();
+		this.customerId = customerId;
+		this.customerName = customerName;
 		this.email = email;
 		this.address = address;
 		this.sweetOrders = sweetOrders;
 	}
 
-	public String getEmail() {
+		public Integer getCustomerId() {
+			return customerId;
+		}
+
+		public void setCustomerId(Integer customerId) {
+			this.customerId = customerId;
+		}
+
+		public String getCustomerName() {
+			return customerName;
+		}
+
+		public void setCustomerName(String customerName) {
+			this.customerName = customerName;
+		}
+
+		public String getEmail() {
 		return email;
 	}
 
@@ -65,21 +82,7 @@ public class Customer {
 		this.email = email;
 	}
 
-	public int getUserId() {
-		return userId;
-	}
-
-	public void setUserId(int userId) {
-		this.userId = userId;
-	}
-
-	public String getUsername() {
-		return username;
-	}
-
-	public void setUsername(String username) {
-		this.username = username;
-	}
+		
 
 	public Address getAddress() {
 		return address;
@@ -99,8 +102,9 @@ public class Customer {
 
 	@Override
 	public String toString() {
-		return "Customer [userId=" + userId + ", username=" + username + ", address=" + address + ", sweetOrders="
-				+ sweetOrders + "]";
+		return "Customer [customerId=" + customerId + ", customerName=" + customerName + ", email=" + email
+				+ ", address=" + address + ", sweetOrders=" + sweetOrders + "]";
 	}
 
+	
 }

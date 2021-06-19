@@ -38,7 +38,7 @@ public class CustomerServiceTest {
 				new Address("Hyderabad", "9885394447", "500054"), null);
 		Mockito.when(customerrepository.save(cust1)).thenReturn(cust1);
 		Customer result = customerrepository.save(cust1);
-		assertEquals(123, result.getUserId());
+		assertEquals(123, result.getCustomerId());
 	}
 
 	@Test
@@ -46,7 +46,7 @@ public class CustomerServiceTest {
 		BDDMockito.given(customerrepository.findById(123)).willReturn(Optional.of(new Customer(123, "Prashanth",
 				"aripiralap@gmail.com", new Address("Hyderabad", "9885394447", "500054"), null)));
 		Customer result = customerservice.findCustomerById(123).get();
-		assertEquals(123, result.getUserId());
+		assertEquals(123, result.getCustomerId());
 	}
 
 	@Test
@@ -65,7 +65,7 @@ public class CustomerServiceTest {
 		BDDMockito.given(customerrepository.findCustomerByName("Prashanth")).willReturn(Optional.of(new Customer(123,
 				"Prashanth", "aripiralap@gmail.com", new Address("Hyderabad", "9885394447", "500054"), null)));
 		Customer result = customerservice.findCustomerByName("Prashanth").get();
-		assertEquals(123, result.getUserId());
+		assertEquals(123, result.getCustomerId());
 	}
 
 	@Test
@@ -84,8 +84,8 @@ public class CustomerServiceTest {
 	void test_deleteCustomer() throws Exception {
 		Customer cust1 = new Customer(123, "Prashanth", "aripiralap@gmail.com",
 				new Address("Hyderabad", "9885394447", "500054"), null);
-		when(customerrepository.existsById(cust1.getUserId())).thenReturn(true);
-		customerservice.deleteCustomer(cust1.getUserId());
+		when(customerrepository.existsById(cust1.getCustomerId())).thenReturn(true);
+		customerservice.deleteCustomer(cust1.getCustomerId());
 		verify(customerrepository).deleteById(123);
 	}
 
@@ -113,7 +113,7 @@ public class CustomerServiceTest {
 		Mockito.when(customerrepository.findAll()).thenReturn(customerlist);
 		List<Customer> result = customerservice.showAllCustomers();
 		assertEquals(2, result.size());
-		assertEquals(123, result.get(0).getUserId());
+		assertEquals(123, result.get(0).getCustomerId());
 	}
 
 	@Test
@@ -131,8 +131,8 @@ public class CustomerServiceTest {
 	public void updateCustomer() {
 		Customer cust1 = new Customer(123, "Prashanth", "aripiralap@gmail.com",
 				new Address("Hyderabad", "9885394447", "500054"), null);
-		cust1.setUsername("Ravi");
-		assertThat(customerrepository.findById(cust1.getUserId())).isNotEqualTo(cust1);
+		cust1.setCustomerName("Ravi");
+		assertThat(customerrepository.findById(cust1.getCustomerId())).isNotEqualTo(cust1);
 
 	}
 

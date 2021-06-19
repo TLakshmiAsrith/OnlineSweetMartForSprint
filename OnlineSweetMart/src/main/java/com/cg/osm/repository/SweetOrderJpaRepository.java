@@ -11,7 +11,7 @@ import com.cg.osm.entity.SweetOrder;
 @Repository
 public interface SweetOrderJpaRepository extends JpaRepository<SweetOrder, Integer> {
 
-	@Query("SELECT s FROM SweetOrder s WHERE s.customer.userId = ?1")
+	@Query("SELECT s FROM SweetOrder s WHERE s.customer.customerId = ?1")
 	public List<SweetOrder> findOrdersByCustomerId(@Param("customerId") int customerId);
 
 }

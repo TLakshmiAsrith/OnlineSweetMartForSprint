@@ -36,7 +36,7 @@ public class SweetOrderServiceImpl implements SweetOrderService {
 	@Override
 	public SweetOrder addSweetOrder(SweetOrder sweetOrder) throws CustomerNotFoundException, ProductNotFoundException {
 		logger.info("SweetOrder addSweetOrder()");
-		int customerId = sweetOrder.getCustomer().getUserId();
+		int customerId = sweetOrder.getCustomer().getCustomerId();
 		if (!customerRepository.existsById(customerId))
 			throw new CustomerNotFoundException("No such customer found");
 		sweetOrder.setCustomer(customerRepository.getOne(customerId));

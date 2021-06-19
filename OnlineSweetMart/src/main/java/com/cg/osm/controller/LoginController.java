@@ -1,5 +1,7 @@
 package com.cg.osm.controller;
 
+import java.util.List;
+
 import javax.validation.Valid;
 
 import org.slf4j.Logger;
@@ -9,9 +11,9 @@ import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-
 import com.cg.osm.entity.User;
 import com.cg.osm.error.UserNotFoundException;
 import com.cg.osm.service.LoginServiceImpl;
@@ -60,4 +62,24 @@ public class LoginController {
 		logger.info("User validateUser()");
 		return loginService.validateUser(userId);
 	}
+
+	/*
+	 * Method to get ALL Users throw exception if there are no customers
+	 */
+	@GetMapping(path = "/userlogin")
+	public List<User> showAllUsers() throws UserNotFoundException {
+		logger.info("Customer showAllUsers()");
+		return loginService.showAllUsers();
+	}
+
+	/*
+	 * Updating an already existing user, if the product doesn't exist an exception
+	 * is thrown
+	 */
+	@PutMapping(path = "/userlogin")
+	public User updateUser(@Valid @RequestBody User user) throws UserNotFoundException {
+		logger.info("User updateUser()");
+		return loginService.updateUser(user);
+	}
+
 }

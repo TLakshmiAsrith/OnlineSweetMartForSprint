@@ -1,5 +1,6 @@
 package com.cg.osm.service;
 
+import java.util.List;
 import java.util.Optional;
 
 import javax.transaction.Transactional;
@@ -8,9 +9,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import com.cg.osm.entity.User;
-
 import com.cg.osm.error.UserNotFoundException;
 
 import com.cg.osm.repository.LoginRepository;
@@ -62,6 +61,18 @@ public class LoginServiceImpl implements LoginService {
 		else
 			return u;	
 		}
+	@Override
+	@Transactional
+	public List<User> showAllUsers() throws UserNotFoundException {
+		logger.info("Customer showAllCustomers()");
+		List<User> userList = loginRepo.findAll();
+		if (userList.size() == 0) {
+			throw new UserNotFoundException("No such users found");
+		} else {
+			return userList;
+		}
+	}
+
 
 
 	@Override
@@ -77,6 +88,32 @@ public class LoginServiceImpl implements LoginService {
 		else
 		return user;	
 	
+	}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	@Override
+	@Transactional
+	public User updateUser(User user) throws UserNotFoundException {
+		logger.info("User updateUser()");
+		String userId = user.getUserId();
+		boolean found = loginRepo.existsById(userId);
+		if (found) {
+			user.setPassword(user.getPassword());
+			return loginRepo.save(user);
+		} else
+			throw new UserNotFoundException("No such category found");
+
 	}
 }
 	

@@ -82,7 +82,7 @@ public class SweetOrder {
 	@Override
 	public String toString() {
 		return "SweetOrder [orderId=" + orderId + ", totalCost=" + totalCost + ", date=" + date + ", customer="
-				+ customer.getUsername() + ", prodList=" + prodList + "]";
+				+ customer.getCustomerName() + ", prodList=" + prodList + "]";
 	}
 
 }

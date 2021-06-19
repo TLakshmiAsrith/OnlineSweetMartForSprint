@@ -30,12 +30,12 @@ public class CustomerServiceImpl implements CustomerService {
 	@Override
 	public Customer updateCustomer(Customer Customer) throws CustomerNotFoundException {
 		logger.info("Customer updateCustomer()");
-		int customerId = Customer.getUserId();
+		int customerId = Customer.getCustomerId();
 		boolean found = customerRepository.existsById(customerId);
 		Optional<Customer> customer = customerRepository.findById(customerId);
 		if (found) {
 			Customer customer1 = customer.get();
-			customer1.setUsername(Customer.getUsername());
+			customer1.setCustomerName(Customer.getCustomerName());
 			customer1.setAddress(Customer.getAddress());
 			customerRepository.saveAndFlush(customer1);
 			return customer1;
